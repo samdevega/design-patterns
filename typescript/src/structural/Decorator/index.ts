@@ -1,0 +1,5 @@
+export * from './Component'
+export * from './ConcreteComponent'
+export * from './Decorator'
+export * from './ConcreteDecoratorA'
+export * from './ConcreteDecoratorB'
