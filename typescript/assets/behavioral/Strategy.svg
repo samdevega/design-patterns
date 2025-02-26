@@ -1,0 +1,129 @@
+<svg version="1.1" baseProfile="full" width="581.0" height="280.0" viewBox="0 0 581 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[ConcreteStrategyA||+doAlgorithm(): string\[\]]
+[Strategy]&lt;:--[ConcreteStrategyA]
+[ConcreteStrategyB||+doAlgorithm(): string\[\]]
+[Strategy]&lt;:--[ConcreteStrategyB]
+[Context|-strategy: Strategy|+setStrategy(): void;+join(): string]
+[&lt;interface&gt;Strategy||+doAlgorithm(): string\[\]]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="280.0" width="581.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M148.9 99.2 L98 132 L98 152 L98.0 152.0 " fill="none"></path>
+</g>
+<path d="M151.8 103.7 L148.9 99.2 L146.0 94.7 L160.1 92.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M283.1 99.2 L334 132 L334 152 L334.0 152.0 " fill="none"></path>
+</g>
+<path d="M286.0 94.7 L283.1 99.2 L280.2 103.7 L271.9 92.0 Z"></path>
+<g data-name="ConcreteStrategyA">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteStrategyA">
+<rect x="0.0" y="152.0" height="72.0" width="196.0" data-name="ConcreteStrategyA"></rect>
+<path d="M0.0 184.0 L196.0 184.0" fill="none" data-name="ConcreteStrategyA"></path>
+<path d="M0.0 192.0 L196.0 192.0" fill="none" data-name="ConcreteStrategyA"></path>
+</g>
+<g transform="translate(0, 152)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteStrategyA" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteStrategyA" data-compartment="0">
+<a id="../../src/behavioral/Strategy/ConcreteStrategyA.ts.ConcreteStrategyA" xlink:href="../../src/behavioral/Strategy/ConcreteStrategyA.ts"><text x="90.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteStrategyA" data-compartment="0">ConcreteStrategyA</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 184)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStrategyA" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteStrategyA" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 192)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStrategyA" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteStrategyA" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteStrategyA" data-compartment="2">+doAlgorithm(): string[]</text>
+
+</g>
+</g>
+</g>
+<g data-name="Strategy">
+<g fill="lightblue" stroke="#33322E" data-name="Strategy">
+<rect x="118.0" y="20.0" height="72.0" width="196.0" data-name="Strategy"></rect>
+<path d="M118.0 52.0 L314.0 52.0" fill="none" data-name="Strategy"></path>
+<path d="M118.0 60.0 L314.0 60.0" fill="none" data-name="Strategy"></path>
+</g>
+<g transform="translate(118, 20)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Strategy" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Strategy" data-compartment="0">
+<a id="../../src/behavioral/Strategy/Strategy.ts.Strategy" xlink:href="../../src/behavioral/Strategy/Strategy.ts"><text x="90.0" y="14.1" stroke="none" text-anchor="middle" data-name="Strategy" data-compartment="0">Strategy</text></a>
+
+</g>
+</g>
+<g transform="translate(118, 52)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Strategy" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Strategy" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(118, 60)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Strategy" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Strategy" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Strategy" data-compartment="2">+doAlgorithm(): string[]</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteStrategyB">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteStrategyB">
+<rect x="236.0" y="152.0" height="72.0" width="196.0" data-name="ConcreteStrategyB"></rect>
+<path d="M236.0 184.0 L432.0 184.0" fill="none" data-name="ConcreteStrategyB"></path>
+<path d="M236.0 192.0 L432.0 192.0" fill="none" data-name="ConcreteStrategyB"></path>
+</g>
+<g transform="translate(236, 152)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteStrategyB" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteStrategyB" data-compartment="0">
+<a id="../../src/behavioral/Strategy/ConcreteStrategyB.ts.ConcreteStrategyB" xlink:href="../../src/behavioral/Strategy/ConcreteStrategyB.ts"><text x="90.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteStrategyB" data-compartment="0">ConcreteStrategyB</text></a>
+
+</g>
+</g>
+<g transform="translate(236, 184)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStrategyB" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteStrategyB" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(236, 192)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStrategyB" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteStrategyB" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteStrategyB" data-compartment="2">+doAlgorithm(): string[]</text>
+
+</g>
+</g>
+</g>
+<g data-name="Context">
+<g fill="#eee8d5" stroke="#33322E" data-name="Context">
+<rect x="354.0" y="0.0" height="112.0" width="171.0" data-name="Context"></rect>
+<path d="M354.0 32.0 L525.0 32.0" fill="none" data-name="Context"></path>
+<path d="M354.0 64.0 L525.0 64.0" fill="none" data-name="Context"></path>
+</g>
+<g transform="translate(354, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Context" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Context" data-compartment="0">
+<a id="../../src/behavioral/Strategy/Context.ts.Context" xlink:href="../../src/behavioral/Strategy/Context.ts"><text x="77.5" y="14.1" stroke="none" text-anchor="middle" data-name="Context" data-compartment="0">Context</text></a>
+
+</g>
+</g>
+<g transform="translate(354, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Context" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Context" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Context" data-compartment="1">-strategy: Strategy</text>
+
+</g>
+</g>
+<g transform="translate(354, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Context" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Context" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Context" data-compartment="2">+setStrategy(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Context" data-compartment="2">+join(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,184 @@
+<svg version="1.1" baseProfile="full" width="954.0" height="256.0" viewBox="0 0 954 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[ConcreteCreator1||+factoryMethod(): Product]
+[Creator]&lt;:-[ConcreteCreator1]
+[ConcreteCreator2||+factoryMethod(): Product]
+[Creator]&lt;:-[ConcreteCreator2]
+[ConcreteProduct1||+operation(): string]
+[Product]&lt;:--[ConcreteProduct1]
+[ConcreteProduct2||+operation(): string]
+[Product]&lt;:--[ConcreteProduct2]
+[Creator||+abstract factoryMethod(): Product;+someOperation(): string]
+[&lt;interface&gt;Product||+operation(): string]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="256.0" width="954.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M140.0 93.9 L111 108 L111 128 L111.0 128.0 " fill="none"></path>
+<path d="M142.3 98.6 L140.0 93.9 L137.6 89.1 L151.9 88.0 Z"></path>
+<path d="M344.0 93.9 L373 108 L373 128 L373.0 128.0 " fill="none"></path>
+<path d="M346.4 89.1 L344.0 93.9 L341.7 98.6 L332.1 88.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M641.4 87.0 L607.5 108 L607.5 128 L607.5 128.0 " fill="none"></path>
+</g>
+<path d="M644.2 91.5 L641.4 87.0 L638.6 82.5 L652.8 80.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M780.6 87.0 L814.5 108 L814.5 128 L814.5 128.0 " fill="none"></path>
+</g>
+<path d="M783.4 82.5 L780.6 87.0 L777.8 91.5 L769.2 80.0 Z"></path>
+<g data-name="ConcreteCreator1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteCreator1">
+<rect x="0.0" y="128.0" height="72.0" width="222.0" data-name="ConcreteCreator1"></rect>
+<path d="M0.0 160.0 L222.0 160.0" fill="none" data-name="ConcreteCreator1"></path>
+<path d="M0.0 168.0 L222.0 168.0" fill="none" data-name="ConcreteCreator1"></path>
+</g>
+<g transform="translate(0, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteCreator1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteCreator1" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/ConcreteCreator1.ts.ConcreteCreator1" xlink:href="../../src/creational/FactoryMethod/ConcreteCreator1.ts"><text x="103.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteCreator1" data-compartment="0">ConcreteCreator1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteCreator1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteCreator1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteCreator1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteCreator1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteCreator1" data-compartment="2">+factoryMethod(): Product</text>
+
+</g>
+</g>
+</g>
+<g data-name="Creator">
+<g fill="#eee8d5" stroke="#33322E" data-name="Creator">
+<rect x="96.5" y="0.0" height="88.0" width="291.0" data-name="Creator"></rect>
+<path d="M96.5 32.0 L387.5 32.0" fill="none" data-name="Creator"></path>
+<path d="M96.5 40.0 L387.5 40.0" fill="none" data-name="Creator"></path>
+</g>
+<g transform="translate(96.5, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Creator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Creator" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/Creator.ts.Creator" xlink:href="../../src/creational/FactoryMethod/Creator.ts"><text x="137.5" y="14.1" stroke="none" text-anchor="middle" data-name="Creator" data-compartment="0">Creator</text></a>
+
+</g>
+</g>
+<g transform="translate(96.5, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Creator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Creator" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(96.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Creator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Creator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Creator" data-compartment="2">+abstract factoryMethod(): Product</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Creator" data-compartment="2">+someOperation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteCreator2">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteCreator2">
+<rect x="262.0" y="128.0" height="72.0" width="222.0" data-name="ConcreteCreator2"></rect>
+<path d="M262.0 160.0 L484.0 160.0" fill="none" data-name="ConcreteCreator2"></path>
+<path d="M262.0 168.0 L484.0 168.0" fill="none" data-name="ConcreteCreator2"></path>
+</g>
+<g transform="translate(262, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteCreator2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteCreator2" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/ConcreteCreator2.ts.ConcreteCreator2" xlink:href="../../src/creational/FactoryMethod/ConcreteCreator2.ts"><text x="103.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteCreator2" data-compartment="0">ConcreteCreator2</text></a>
+
+</g>
+</g>
+<g transform="translate(262, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteCreator2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteCreator2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(262, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteCreator2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteCreator2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteCreator2" data-compartment="2">+factoryMethod(): Product</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProduct1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProduct1">
+<rect x="524.0" y="128.0" height="72.0" width="167.0" data-name="ConcreteProduct1"></rect>
+<path d="M524.0 160.0 L691.0 160.0" fill="none" data-name="ConcreteProduct1"></path>
+<path d="M524.0 168.0 L691.0 168.0" fill="none" data-name="ConcreteProduct1"></path>
+</g>
+<g transform="translate(524, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProduct1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProduct1" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/ConcreteProduct1.ts.ConcreteProduct1" xlink:href="../../src/creational/FactoryMethod/ConcreteProduct1.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProduct1" data-compartment="0">ConcreteProduct1</text></a>
+
+</g>
+</g>
+<g transform="translate(524, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProduct1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProduct1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(524, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProduct1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProduct1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProduct1" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Product">
+<g fill="lightblue" stroke="#33322E" data-name="Product">
+<rect x="627.5" y="8.0" height="72.0" width="167.0" data-name="Product"></rect>
+<path d="M627.5 40.0 L794.5 40.0" fill="none" data-name="Product"></path>
+<path d="M627.5 48.0 L794.5 48.0" fill="none" data-name="Product"></path>
+</g>
+<g transform="translate(627.5, 8)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Product" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/Product.ts.Product" xlink:href="../../src/creational/FactoryMethod/Product.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="Product" data-compartment="0">Product</text></a>
+
+</g>
+</g>
+<g transform="translate(627.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Product" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(627.5, 48)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Product" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Product" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProduct2">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProduct2">
+<rect x="731.0" y="128.0" height="72.0" width="167.0" data-name="ConcreteProduct2"></rect>
+<path d="M731.0 160.0 L898.0 160.0" fill="none" data-name="ConcreteProduct2"></path>
+<path d="M731.0 168.0 L898.0 168.0" fill="none" data-name="ConcreteProduct2"></path>
+</g>
+<g transform="translate(731, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProduct2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProduct2" data-compartment="0">
+<a id="../../src/creational/FactoryMethod/ConcreteProduct2.ts.ConcreteProduct2" xlink:href="../../src/creational/FactoryMethod/ConcreteProduct2.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProduct2" data-compartment="0">ConcreteProduct2</text></a>
+
+</g>
+</g>
+<g transform="translate(731, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProduct2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProduct2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(731, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProduct2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProduct2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProduct2" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

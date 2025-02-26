@@ -1,0 +1,201 @@
+<svg version="1.1" baseProfile="full" width="903.0" height="346.0" viewBox="0 0 903 346" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[AreaCalculatorVisitor|-area: number|+visitCircle(): void;+visitSquare(): void;+visitTriangle(): void;+getArea(): number]
+[Visitor]&lt;:--[AreaCalculatorVisitor]
+[Circle|-radius: number|+accept(): void;+getRadius(): number]
+[Shape]&lt;:--[Circle]
+[&lt;interface&gt;Shape||+accept(): void]
+[Square|-base: number|+accept(): void;+getBase(): number]
+[Shape]&lt;:--[Square]
+[Triangle|-base: number;-height: number|+accept(): void;+getBase(): number;+getHeight(): number]
+[Shape]&lt;:--[Triangle]
+[&lt;interface&gt;Visitor||+visitCircle(): void;+visitSquare(): void;+visitTriangle(): void]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="346.0" width="903.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M91.0 118.3 L91 125 L91 145 L91.0 145.0 " fill="none"></path>
+</g>
+<path d="M96.3 118.3 L91.0 118.3 L85.7 118.3 L91.0 105.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M456.8 78.7 L316 125 L316 161.5 L316.0 161.5 " fill="none"></path>
+</g>
+<path d="M458.5 83.8 L456.8 78.7 L455.2 73.6 L469.5 74.5 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M536.5 101.8 L536.5 125 L536.5 161.5 L536.5 161.5 " fill="none"></path>
+</g>
+<path d="M541.8 101.8 L536.5 101.8 L531.2 101.8 L536.5 88.5 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M616.2 78.9 L755 125 L755 145 L755.0 145.0 " fill="none"></path>
+</g>
+<path d="M617.8 73.9 L616.2 78.9 L614.5 84.0 L603.5 74.7 Z"></path>
+<g data-name="AreaCalculatorVisitor">
+<g fill="#eee8d5" stroke="#33322E" data-name="AreaCalculatorVisitor">
+<rect x="0.0" y="145.0" height="145.0" width="182.0" data-name="AreaCalculatorVisitor"></rect>
+<path d="M0.0 177.0 L182.0 177.0" fill="none" data-name="AreaCalculatorVisitor"></path>
+<path d="M0.0 209.0 L182.0 209.0" fill="none" data-name="AreaCalculatorVisitor"></path>
+</g>
+<g transform="translate(0, 145)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="AreaCalculatorVisitor" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="AreaCalculatorVisitor" data-compartment="0">
+<a id="../../src/behavioral/Visitor/AreaCalculatorVisitor.ts.AreaCalculatorVisitor" xlink:href="../../src/behavioral/Visitor/AreaCalculatorVisitor.ts"><text x="83.0" y="14.1" stroke="none" text-anchor="middle" data-name="AreaCalculatorVisitor" data-compartment="0">AreaCalculatorVisitor</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 177)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AreaCalculatorVisitor" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AreaCalculatorVisitor" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="AreaCalculatorVisitor" data-compartment="1">-area: number</text>
+
+</g>
+</g>
+<g transform="translate(0, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AreaCalculatorVisitor" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AreaCalculatorVisitor" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="AreaCalculatorVisitor" data-compartment="2">+visitCircle(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="AreaCalculatorVisitor" data-compartment="2">+visitSquare(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="AreaCalculatorVisitor" data-compartment="2">+visitTriangle(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="AreaCalculatorVisitor" data-compartment="2">+getArea(): number</text>
+
+</g>
+</g>
+</g>
+<g data-name="Visitor">
+<g fill="lightblue" stroke="#33322E" data-name="Visitor">
+<rect x="3.0" y="0.0" height="105.0" width="176.0" data-name="Visitor"></rect>
+<path d="M3.0 32.0 L179.0 32.0" fill="none" data-name="Visitor"></path>
+<path d="M3.0 40.0 L179.0 40.0" fill="none" data-name="Visitor"></path>
+</g>
+<g transform="translate(3, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Visitor" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Visitor" data-compartment="0">
+<a id="../../src/behavioral/Visitor/Visitor.ts.Visitor" xlink:href="../../src/behavioral/Visitor/Visitor.ts"><text x="80.0" y="14.1" stroke="none" text-anchor="middle" data-name="Visitor" data-compartment="0">Visitor</text></a>
+
+</g>
+</g>
+<g transform="translate(3, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Visitor" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Visitor" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(3, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Visitor" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Visitor" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Visitor" data-compartment="2">+visitCircle(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Visitor" data-compartment="2">+visitSquare(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Visitor" data-compartment="2">+visitTriangle(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Circle">
+<g fill="#eee8d5" stroke="#33322E" data-name="Circle">
+<rect x="222.0" y="161.5" height="112.0" width="188.0" data-name="Circle"></rect>
+<path d="M222.0 193.5 L410.0 193.5" fill="none" data-name="Circle"></path>
+<path d="M222.0 225.5 L410.0 225.5" fill="none" data-name="Circle"></path>
+</g>
+<g transform="translate(222, 161.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Circle" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Circle" data-compartment="0">
+<a id="../../src/behavioral/Visitor/Circle.ts.Circle" xlink:href="../../src/behavioral/Visitor/Circle.ts"><text x="86.0" y="14.1" stroke="none" text-anchor="middle" data-name="Circle" data-compartment="0">Circle</text></a>
+
+</g>
+</g>
+<g transform="translate(222, 193.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Circle" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Circle" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Circle" data-compartment="1">-radius: number</text>
+
+</g>
+</g>
+<g transform="translate(222, 225.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Circle" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Circle" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Circle" data-compartment="2">+accept(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Circle" data-compartment="2">+getRadius(): number</text>
+
+</g>
+</g>
+</g>
+<g data-name="Shape">
+<g fill="lightblue" stroke="#33322E" data-name="Shape">
+<rect x="469.5" y="16.5" height="72.0" width="134.0" data-name="Shape"></rect>
+<path d="M469.5 48.5 L603.5 48.5" fill="none" data-name="Shape"></path>
+<path d="M469.5 56.5 L603.5 56.5" fill="none" data-name="Shape"></path>
+</g>
+<g transform="translate(469.5, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Shape" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Shape" data-compartment="0">
+<a id="../../src/behavioral/Visitor/Shape.ts.Shape" xlink:href="../../src/behavioral/Visitor/Shape.ts"><text x="59.0" y="14.1" stroke="none" text-anchor="middle" data-name="Shape" data-compartment="0">Shape</text></a>
+
+</g>
+</g>
+<g transform="translate(469.5, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Shape" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Shape" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(469.5, 56.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Shape" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Shape" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Shape" data-compartment="2">+accept(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Square">
+<g fill="#eee8d5" stroke="#33322E" data-name="Square">
+<rect x="450.0" y="161.5" height="112.0" width="173.0" data-name="Square"></rect>
+<path d="M450.0 193.5 L623.0 193.5" fill="none" data-name="Square"></path>
+<path d="M450.0 225.5 L623.0 225.5" fill="none" data-name="Square"></path>
+</g>
+<g transform="translate(450, 161.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Square" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Square" data-compartment="0">
+<a id="../../src/behavioral/Visitor/Square.ts.Square" xlink:href="../../src/behavioral/Visitor/Square.ts"><text x="78.5" y="14.1" stroke="none" text-anchor="middle" data-name="Square" data-compartment="0">Square</text></a>
+
+</g>
+</g>
+<g transform="translate(450, 193.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Square" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Square" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Square" data-compartment="1">-base: number</text>
+
+</g>
+</g>
+<g transform="translate(450, 225.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Square" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Square" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Square" data-compartment="2">+accept(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Square" data-compartment="2">+getBase(): number</text>
+
+</g>
+</g>
+</g>
+<g data-name="Triangle">
+<g fill="#eee8d5" stroke="#33322E" data-name="Triangle">
+<rect x="663.0" y="145.0" height="145.0" width="184.0" data-name="Triangle"></rect>
+<path d="M663.0 177.0 L847.0 177.0" fill="none" data-name="Triangle"></path>
+<path d="M663.0 225.0 L847.0 225.0" fill="none" data-name="Triangle"></path>
+</g>
+<g transform="translate(663, 145)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Triangle" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Triangle" data-compartment="0">
+<a id="../../src/behavioral/Visitor/Triangle.ts.Triangle" xlink:href="../../src/behavioral/Visitor/Triangle.ts"><text x="84.0" y="14.1" stroke="none" text-anchor="middle" data-name="Triangle" data-compartment="0">Triangle</text></a>
+
+</g>
+</g>
+<g transform="translate(663, 177)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Triangle" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Triangle" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Triangle" data-compartment="1">-base: number</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Triangle" data-compartment="1">-height: number</text>
+
+</g>
+</g>
+<g transform="translate(663, 225)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Triangle" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Triangle" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Triangle" data-compartment="2">+accept(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Triangle" data-compartment="2">+getBase(): number</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Triangle" data-compartment="2">+getHeight(): number</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

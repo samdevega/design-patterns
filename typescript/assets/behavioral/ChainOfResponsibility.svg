@@ -1,0 +1,131 @@
+<svg version="1.1" baseProfile="full" width="388.0" height="408.0" viewBox="0 0 388 408" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[AbstractHandler|-nextHandler: Handler|+setNext(): Handler;+handle(): string]
+[Handler]&lt;:--[AbstractHandler]
+[&lt;interface&gt;Handler||+setNext(): Handler;+handle(): string]
+[LetterHandler||+handle(): string]
+[AbstractHandler]&lt;:-[LetterHandler]
+[NumberHandler||+handle(): string]
+[AbstractHandler]&lt;:-[NumberHandler]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="408.0" width="388.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M166.0 101.3 L166 108 L166 128 L166.0 128.0 " fill="none"></path>
+</g>
+<path d="M171.3 101.3 L166.0 101.3 L160.7 101.3 L166.0 88.0 Z"></path>
+<path d="M87.1 248.4 L73 260 L73 280 L73.0 280.0 " fill="none"></path>
+<path d="M90.5 252.6 L87.1 248.4 L83.8 244.3 L97.5 240.0 Z"></path>
+<path d="M244.9 248.4 L259 260 L259 280 L259.0 280.0 " fill="none"></path>
+<path d="M248.2 244.3 L244.9 248.4 L241.5 252.6 L234.5 240.0 Z"></path>
+<g data-name="AbstractHandler">
+<g fill="#eee8d5" stroke="#33322E" data-name="AbstractHandler">
+<rect x="71.0" y="128.0" height="112.0" width="190.0" data-name="AbstractHandler"></rect>
+<path d="M71.0 160.0 L261.0 160.0" fill="none" data-name="AbstractHandler"></path>
+<path d="M71.0 192.0 L261.0 192.0" fill="none" data-name="AbstractHandler"></path>
+</g>
+<g transform="translate(71, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="AbstractHandler" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="AbstractHandler" data-compartment="0">
+<a id="../../src/behavioral/ChainOfResponsibility/AbstractHandler.ts.AbstractHandler" xlink:href="../../src/behavioral/ChainOfResponsibility/AbstractHandler.ts"><text x="87.0" y="14.1" stroke="none" text-anchor="middle" data-name="AbstractHandler" data-compartment="0">AbstractHandler</text></a>
+
+</g>
+</g>
+<g transform="translate(71, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractHandler" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AbstractHandler" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="AbstractHandler" data-compartment="1">-nextHandler: Handler</text>
+
+</g>
+</g>
+<g transform="translate(71, 192)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractHandler" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AbstractHandler" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="AbstractHandler" data-compartment="2">+setNext(): Handler</text>
+<text x="0.0" y="30.3" stroke="none" data-name="AbstractHandler" data-compartment="2">+handle(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Handler">
+<g fill="lightblue" stroke="#33322E" data-name="Handler">
+<rect x="81.0" y="0.0" height="88.0" width="170.0" data-name="Handler"></rect>
+<path d="M81.0 32.0 L251.0 32.0" fill="none" data-name="Handler"></path>
+<path d="M81.0 40.0 L251.0 40.0" fill="none" data-name="Handler"></path>
+</g>
+<g transform="translate(81, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Handler" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Handler" data-compartment="0">
+<a id="../../src/behavioral/ChainOfResponsibility/Handler.ts.Handler" xlink:href="../../src/behavioral/ChainOfResponsibility/Handler.ts"><text x="77.0" y="14.1" stroke="none" text-anchor="middle" data-name="Handler" data-compartment="0">Handler</text></a>
+
+</g>
+</g>
+<g transform="translate(81, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Handler" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Handler" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(81, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Handler" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Handler" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Handler" data-compartment="2">+setNext(): Handler</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Handler" data-compartment="2">+handle(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="LetterHandler">
+<g fill="#eee8d5" stroke="#33322E" data-name="LetterHandler">
+<rect x="0.0" y="280.0" height="72.0" width="146.0" data-name="LetterHandler"></rect>
+<path d="M0.0 312.0 L146.0 312.0" fill="none" data-name="LetterHandler"></path>
+<path d="M0.0 320.0 L146.0 320.0" fill="none" data-name="LetterHandler"></path>
+</g>
+<g transform="translate(0, 280)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="LetterHandler" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="LetterHandler" data-compartment="0">
+<a id="../../src/behavioral/ChainOfResponsibility/LetterHandler.ts.LetterHandler" xlink:href="../../src/behavioral/ChainOfResponsibility/LetterHandler.ts"><text x="65.0" y="14.1" stroke="none" text-anchor="middle" data-name="LetterHandler" data-compartment="0">LetterHandler</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 312)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="LetterHandler" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="LetterHandler" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 320)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="LetterHandler" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="LetterHandler" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="LetterHandler" data-compartment="2">+handle(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="NumberHandler">
+<g fill="#eee8d5" stroke="#33322E" data-name="NumberHandler">
+<rect x="186.0" y="280.0" height="72.0" width="146.0" data-name="NumberHandler"></rect>
+<path d="M186.0 312.0 L332.0 312.0" fill="none" data-name="NumberHandler"></path>
+<path d="M186.0 320.0 L332.0 320.0" fill="none" data-name="NumberHandler"></path>
+</g>
+<g transform="translate(186, 280)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="NumberHandler" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="NumberHandler" data-compartment="0">
+<a id="../../src/behavioral/ChainOfResponsibility/NumberHandler.ts.NumberHandler" xlink:href="../../src/behavioral/ChainOfResponsibility/NumberHandler.ts"><text x="65.0" y="14.1" stroke="none" text-anchor="middle" data-name="NumberHandler" data-compartment="0">NumberHandler</text></a>
+
+</g>
+</g>
+<g transform="translate(186, 312)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="NumberHandler" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="NumberHandler" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(186, 320)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="NumberHandler" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="NumberHandler" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="NumberHandler" data-compartment="2">+handle(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

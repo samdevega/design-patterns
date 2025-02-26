@@ -1,0 +1,275 @@
+<svg version="1.1" baseProfile="full" width="1746.0" height="272.0" viewBox="0 0 1746 272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;AbstractFactory||+createProductA(): AbstractProductA;+createProductB(): AbstractProductB]
+[&lt;interface&gt;AbstractProductA||+usefulFunctionA(): string]
+[&lt;interface&gt;AbstractProductB||+usefulFunctionB(): string]
+[ConcreteFactory1||+createProductA(): AbstractProductA;+createProductB(): AbstractProductB]
+[AbstractFactory]&lt;:--[ConcreteFactory1]
+[ConcreteFactory2||+createProductA(): AbstractProductA;+createProductB(): AbstractProductB]
+[AbstractFactory]&lt;:--[ConcreteFactory2]
+[ConcreteProductA1||+usefulFunctionA(): string]
+[AbstractProductA]&lt;:--[ConcreteProductA1]
+[ConcreteProductA2||+usefulFunctionA(): string]
+[AbstractProductA]&lt;:--[ConcreteProductA2]
+[ConcreteProductB1||+usefulFunctionB(): string]
+[AbstractProductB]&lt;:--[ConcreteProductB1]
+[ConcreteProductB2||+usefulFunctionB(): string]
+[AbstractProductB]&lt;:--[ConcreteProductB2]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="272.0" width="1746.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M195.2 92.6 L153.5 108 L153.5 128 L153.5 128.0 " fill="none"></path>
+</g>
+<path d="M197.1 97.6 L195.2 92.6 L193.4 87.6 L207.7 88.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M458.8 92.6 L500.5 108 L500.5 128 L500.5 128.0 " fill="none"></path>
+</g>
+<path d="M460.6 87.6 L458.8 92.6 L456.9 97.6 L446.3 88.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M848.2 85.9 L803.5 108 L803.5 136 L803.5 136.0 " fill="none"></path>
+</g>
+<path d="M850.6 90.7 L848.2 85.9 L845.8 81.1 L860.2 80.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M1017.8 85.9 L1062.5 108 L1062.5 136 L1062.5 136.0 " fill="none"></path>
+</g>
+<path d="M1020.2 81.1 L1017.8 85.9 L1015.4 90.7 L1005.8 80.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M1366.2 85.9 L1321.5 108 L1321.5 136 L1321.5 136.0 " fill="none"></path>
+</g>
+<path d="M1368.6 90.7 L1366.2 85.9 L1363.8 81.1 L1378.2 80.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M1535.8 85.9 L1580.5 108 L1580.5 136 L1580.5 136.0 " fill="none"></path>
+</g>
+<path d="M1538.2 81.1 L1535.8 85.9 L1533.4 90.7 L1523.8 80.0 Z"></path>
+<g data-name="AbstractFactory">
+<g fill="lightblue" stroke="#33322E" data-name="AbstractFactory">
+<rect x="173.5" y="0.0" height="88.0" width="307.0" data-name="AbstractFactory"></rect>
+<path d="M173.5 32.0 L480.5 32.0" fill="none" data-name="AbstractFactory"></path>
+<path d="M173.5 40.0 L480.5 40.0" fill="none" data-name="AbstractFactory"></path>
+</g>
+<g transform="translate(173.5, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractFactory" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="AbstractFactory" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/AbstractFactory.ts.AbstractFactory" xlink:href="../../src/creational/AbstractFactory/AbstractFactory.ts"><text x="145.5" y="14.1" stroke="none" text-anchor="middle" data-name="AbstractFactory" data-compartment="0">AbstractFactory</text></a>
+
+</g>
+</g>
+<g transform="translate(173.5, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractFactory" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="AbstractFactory" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(173.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractFactory" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AbstractFactory" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="AbstractFactory" data-compartment="2">+createProductA(): AbstractProductA</text>
+<text x="0.0" y="30.3" stroke="none" data-name="AbstractFactory" data-compartment="2">+createProductB(): AbstractProductB</text>
+
+</g>
+</g>
+</g>
+<g data-name="AbstractProductA">
+<g fill="lightblue" stroke="#33322E" data-name="AbstractProductA">
+<rect x="823.5" y="8.0" height="72.0" width="219.0" data-name="AbstractProductA"></rect>
+<path d="M823.5 40.0 L1042.5 40.0" fill="none" data-name="AbstractProductA"></path>
+<path d="M823.5 48.0 L1042.5 48.0" fill="none" data-name="AbstractProductA"></path>
+</g>
+<g transform="translate(823.5, 8)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductA" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="AbstractProductA" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/AbstractProductA.ts.AbstractProductA" xlink:href="../../src/creational/AbstractFactory/AbstractProductA.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="AbstractProductA" data-compartment="0">AbstractProductA</text></a>
+
+</g>
+</g>
+<g transform="translate(823.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductA" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="AbstractProductA" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(823.5, 48)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductA" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AbstractProductA" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="AbstractProductA" data-compartment="2">+usefulFunctionA(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="AbstractProductB">
+<g fill="lightblue" stroke="#33322E" data-name="AbstractProductB">
+<rect x="1341.5" y="8.0" height="72.0" width="219.0" data-name="AbstractProductB"></rect>
+<path d="M1341.5 40.0 L1560.5 40.0" fill="none" data-name="AbstractProductB"></path>
+<path d="M1341.5 48.0 L1560.5 48.0" fill="none" data-name="AbstractProductB"></path>
+</g>
+<g transform="translate(1341.5, 8)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductB" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="AbstractProductB" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/AbstractProductB.ts.AbstractProductB" xlink:href="../../src/creational/AbstractFactory/AbstractProductB.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="AbstractProductB" data-compartment="0">AbstractProductB</text></a>
+
+</g>
+</g>
+<g transform="translate(1341.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductB" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="AbstractProductB" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1341.5, 48)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="AbstractProductB" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="AbstractProductB" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="AbstractProductB" data-compartment="2">+usefulFunctionB(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteFactory1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteFactory1">
+<rect x="0.0" y="128.0" height="88.0" width="307.0" data-name="ConcreteFactory1"></rect>
+<path d="M0.0 160.0 L307.0 160.0" fill="none" data-name="ConcreteFactory1"></path>
+<path d="M0.0 168.0 L307.0 168.0" fill="none" data-name="ConcreteFactory1"></path>
+</g>
+<g transform="translate(0, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteFactory1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteFactory1" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteFactory1.ts.ConcreteFactory1" xlink:href="../../src/creational/AbstractFactory/ConcreteFactory1.ts"><text x="145.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteFactory1" data-compartment="0">ConcreteFactory1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteFactory1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteFactory1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteFactory1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteFactory1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteFactory1" data-compartment="2">+createProductA(): AbstractProductA</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteFactory1" data-compartment="2">+createProductB(): AbstractProductB</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteFactory2">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteFactory2">
+<rect x="347.0" y="128.0" height="88.0" width="307.0" data-name="ConcreteFactory2"></rect>
+<path d="M347.0 160.0 L654.0 160.0" fill="none" data-name="ConcreteFactory2"></path>
+<path d="M347.0 168.0 L654.0 168.0" fill="none" data-name="ConcreteFactory2"></path>
+</g>
+<g transform="translate(347, 128)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteFactory2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteFactory2" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteFactory2.ts.ConcreteFactory2" xlink:href="../../src/creational/AbstractFactory/ConcreteFactory2.ts"><text x="145.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteFactory2" data-compartment="0">ConcreteFactory2</text></a>
+
+</g>
+</g>
+<g transform="translate(347, 160)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteFactory2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteFactory2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(347, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteFactory2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteFactory2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteFactory2" data-compartment="2">+createProductA(): AbstractProductA</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteFactory2" data-compartment="2">+createProductB(): AbstractProductB</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProductA1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProductA1">
+<rect x="694.0" y="136.0" height="72.0" width="219.0" data-name="ConcreteProductA1"></rect>
+<path d="M694.0 168.0 L913.0 168.0" fill="none" data-name="ConcreteProductA1"></path>
+<path d="M694.0 176.0 L913.0 176.0" fill="none" data-name="ConcreteProductA1"></path>
+</g>
+<g transform="translate(694, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProductA1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProductA1" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteProductA1.ts.ConcreteProductA1" xlink:href="../../src/creational/AbstractFactory/ConcreteProductA1.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProductA1" data-compartment="0">ConcreteProductA1</text></a>
+
+</g>
+</g>
+<g transform="translate(694, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductA1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProductA1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(694, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductA1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProductA1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProductA1" data-compartment="2">+usefulFunctionA(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProductA2">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProductA2">
+<rect x="953.0" y="136.0" height="72.0" width="219.0" data-name="ConcreteProductA2"></rect>
+<path d="M953.0 168.0 L1172.0 168.0" fill="none" data-name="ConcreteProductA2"></path>
+<path d="M953.0 176.0 L1172.0 176.0" fill="none" data-name="ConcreteProductA2"></path>
+</g>
+<g transform="translate(953, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProductA2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProductA2" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteProductA2.ts.ConcreteProductA2" xlink:href="../../src/creational/AbstractFactory/ConcreteProductA2.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProductA2" data-compartment="0">ConcreteProductA2</text></a>
+
+</g>
+</g>
+<g transform="translate(953, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductA2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProductA2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(953, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductA2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProductA2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProductA2" data-compartment="2">+usefulFunctionA(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProductB1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProductB1">
+<rect x="1212.0" y="136.0" height="72.0" width="219.0" data-name="ConcreteProductB1"></rect>
+<path d="M1212.0 168.0 L1431.0 168.0" fill="none" data-name="ConcreteProductB1"></path>
+<path d="M1212.0 176.0 L1431.0 176.0" fill="none" data-name="ConcreteProductB1"></path>
+</g>
+<g transform="translate(1212, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProductB1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProductB1" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteProductB1.ts.ConcreteProductB1" xlink:href="../../src/creational/AbstractFactory/ConcreteProductB1.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProductB1" data-compartment="0">ConcreteProductB1</text></a>
+
+</g>
+</g>
+<g transform="translate(1212, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductB1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProductB1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1212, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductB1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProductB1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProductB1" data-compartment="2">+usefulFunctionB(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteProductB2">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteProductB2">
+<rect x="1471.0" y="136.0" height="72.0" width="219.0" data-name="ConcreteProductB2"></rect>
+<path d="M1471.0 168.0 L1690.0 168.0" fill="none" data-name="ConcreteProductB2"></path>
+<path d="M1471.0 176.0 L1690.0 176.0" fill="none" data-name="ConcreteProductB2"></path>
+</g>
+<g transform="translate(1471, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteProductB2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteProductB2" data-compartment="0">
+<a id="../../src/creational/AbstractFactory/ConcreteProductB2.ts.ConcreteProductB2" xlink:href="../../src/creational/AbstractFactory/ConcreteProductB2.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteProductB2" data-compartment="0">ConcreteProductB2</text></a>
+
+</g>
+</g>
+<g transform="translate(1471, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductB2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteProductB2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1471, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteProductB2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteProductB2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteProductB2" data-compartment="2">+usefulFunctionB(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

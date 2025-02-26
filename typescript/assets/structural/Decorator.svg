@@ -1,0 +1,159 @@
+<svg version="1.1" baseProfile="full" width="579.5" height="376.0" viewBox="0 0 579.5 376" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;Component||+operation(): string]
+[ConcreteComponent||+operation(): string]
+[Component]&lt;:--[ConcreteComponent]
+[ConcreteDecoratorA||+operation(): string]
+[Decorator]&lt;:-[ConcreteDecoratorA]
+[ConcreteDecoratorB||+operation(): string]
+[Decorator]&lt;:-[ConcreteDecoratorB]
+[Decorator|\#component: Component|+operation(): string]
+[Component]&lt;:--[Decorator]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="376.0" width="579.5" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M119.8 77.7 L89.5 92 L89.5 124 L89.5 124.0 " fill="none"></path>
+</g>
+<path d="M122.0 82.5 L119.8 77.7 L117.5 72.9 L131.8 72.0 Z"></path>
+<path d="M238.6 215.1 L218 228 L218 248 L218.0 248.0 " fill="none"></path>
+<path d="M241.4 219.6 L238.6 215.1 L235.8 210.6 L249.9 208.0 Z"></path>
+<path d="M414.4 215.1 L435 228 L435 248 L435.0 248.0 " fill="none"></path>
+<path d="M417.2 210.6 L414.4 215.1 L411.6 219.6 L403.1 208.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M296.2 77.7 L326.5 92 L326.5 112 L326.5 112.0 " fill="none"></path>
+</g>
+<path d="M298.5 72.9 L296.2 77.7 L294.0 82.5 L284.2 72.0 Z"></path>
+<g data-name="Component">
+<g fill="lightblue" stroke="#33322E" data-name="Component">
+<rect x="124.5" y="0.0" height="72.0" width="167.0" data-name="Component"></rect>
+<path d="M124.5 32.0 L291.5 32.0" fill="none" data-name="Component"></path>
+<path d="M124.5 40.0 L291.5 40.0" fill="none" data-name="Component"></path>
+</g>
+<g transform="translate(124.5, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Component" data-compartment="0">
+<a id="../../src/structural/Decorator/Component.ts.Component" xlink:href="../../src/structural/Decorator/Component.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="Component" data-compartment="0">Component</text></a>
+
+</g>
+</g>
+<g transform="translate(124.5, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Component" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(124.5, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Component" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Component" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteComponent">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteComponent">
+<rect x="0.0" y="124.0" height="72.0" width="179.0" data-name="ConcreteComponent"></rect>
+<path d="M0.0 156.0 L179.0 156.0" fill="none" data-name="ConcreteComponent"></path>
+<path d="M0.0 164.0 L179.0 164.0" fill="none" data-name="ConcreteComponent"></path>
+</g>
+<g transform="translate(0, 124)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteComponent" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteComponent" data-compartment="0">
+<a id="../../src/structural/Decorator/ConcreteComponent.ts.ConcreteComponent" xlink:href="../../src/structural/Decorator/ConcreteComponent.ts"><text x="81.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteComponent" data-compartment="0">ConcreteComponent</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 156)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteComponent" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteComponent" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 164)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteComponent" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteComponent" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteComponent" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteDecoratorA">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteDecoratorA">
+<rect x="129.5" y="248.0" height="72.0" width="177.0" data-name="ConcreteDecoratorA"></rect>
+<path d="M129.5 280.0 L306.5 280.0" fill="none" data-name="ConcreteDecoratorA"></path>
+<path d="M129.5 288.0 L306.5 288.0" fill="none" data-name="ConcreteDecoratorA"></path>
+</g>
+<g transform="translate(129.5, 248)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteDecoratorA" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteDecoratorA" data-compartment="0">
+<a id="../../src/structural/Decorator/ConcreteDecoratorA.ts.ConcreteDecoratorA" xlink:href="../../src/structural/Decorator/ConcreteDecoratorA.ts"><text x="80.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteDecoratorA" data-compartment="0">ConcreteDecoratorA</text></a>
+
+</g>
+</g>
+<g transform="translate(129.5, 280)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteDecoratorA" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteDecoratorA" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(129.5, 288)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteDecoratorA" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteDecoratorA" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteDecoratorA" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Decorator">
+<g fill="#eee8d5" stroke="#33322E" data-name="Decorator">
+<rect x="219.0" y="112.0" height="96.0" width="215.0" data-name="Decorator"></rect>
+<path d="M219.0 144.0 L434.0 144.0" fill="none" data-name="Decorator"></path>
+<path d="M219.0 176.0 L434.0 176.0" fill="none" data-name="Decorator"></path>
+</g>
+<g transform="translate(219, 112)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Decorator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Decorator" data-compartment="0">
+<a id="../../src/structural/Decorator/Decorator.ts.Decorator" xlink:href="../../src/structural/Decorator/Decorator.ts"><text x="99.5" y="14.1" stroke="none" text-anchor="middle" data-name="Decorator" data-compartment="0">Decorator</text></a>
+
+</g>
+</g>
+<g transform="translate(219, 144)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Decorator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Decorator" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Decorator" data-compartment="1">#component: Component</text>
+
+</g>
+</g>
+<g transform="translate(219, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Decorator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Decorator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Decorator" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteDecoratorB">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteDecoratorB">
+<rect x="346.5" y="248.0" height="72.0" width="177.0" data-name="ConcreteDecoratorB"></rect>
+<path d="M346.5 280.0 L523.5 280.0" fill="none" data-name="ConcreteDecoratorB"></path>
+<path d="M346.5 288.0 L523.5 288.0" fill="none" data-name="ConcreteDecoratorB"></path>
+</g>
+<g transform="translate(346.5, 248)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteDecoratorB" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteDecoratorB" data-compartment="0">
+<a id="../../src/structural/Decorator/ConcreteDecoratorB.ts.ConcreteDecoratorB" xlink:href="../../src/structural/Decorator/ConcreteDecoratorB.ts"><text x="80.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteDecoratorB" data-compartment="0">ConcreteDecoratorB</text></a>
+
+</g>
+</g>
+<g transform="translate(346.5, 280)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteDecoratorB" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteDecoratorB" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(346.5, 288)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteDecoratorB" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteDecoratorB" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteDecoratorB" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

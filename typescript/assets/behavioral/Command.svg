@@ -1,0 +1,162 @@
+<svg version="1.1" baseProfile="full" width="868.8" height="386.0" viewBox="0 0 868.75 386" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;Command||+execute(): void]
+[ComplexCommand|-receiver: Receiver;-a: string;-b: string|+execute(): void]
+[Command]&lt;:--[ComplexCommand]
+[Invoker|-onStart: Command;-onFinish: Command|+setOnStart(): void;+setOnFinish(): void;+doSomethingImportant(): void;-isCommand(): boolean]
+[Receiver||+doSomething(): void;+doSomethingElse(): void]
+[SimpleCommand|-payload: string|+execute(): void]
+[Command]&lt;:--[SimpleCommand]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="386.0" width="868.8" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M137.0 126.0 L83 181 L83 201 L83.0 201.0 " fill="none"></path>
+</g>
+<path d="M140.8 129.7 L137.0 126.0 L133.2 122.3 L146.4 116.5 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M226.5 126.0 L280.5 181 L280.5 217.5 L280.5 217.5 " fill="none"></path>
+</g>
+<path d="M230.3 122.3 L226.5 126.0 L222.7 129.7 L217.1 116.5 Z"></path>
+<g data-name="Command">
+<g fill="lightblue" stroke="#33322E" data-name="Command">
+<rect x="109.8" y="44.5" height="72.0" width="144.0" data-name="Command"></rect>
+<path d="M109.8 76.5 L253.8 76.5" fill="none" data-name="Command"></path>
+<path d="M109.8 84.5 L253.8 84.5" fill="none" data-name="Command"></path>
+</g>
+<g transform="translate(109.75, 44.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Command" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Command" data-compartment="0">
+<a id="../../src/behavioral/Command/Command.ts.Command" xlink:href="../../src/behavioral/Command/Command.ts"><text x="64.0" y="14.1" stroke="none" text-anchor="middle" data-name="Command" data-compartment="0">Command</text></a>
+
+</g>
+</g>
+<g transform="translate(109.75, 76.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Command" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Command" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(109.75, 84.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Command" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Command" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Command" data-compartment="2">+execute(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="ComplexCommand">
+<g fill="#eee8d5" stroke="#33322E" data-name="ComplexCommand">
+<rect x="0.0" y="201.0" height="129.0" width="166.0" data-name="ComplexCommand"></rect>
+<path d="M0.0 233.0 L166.0 233.0" fill="none" data-name="ComplexCommand"></path>
+<path d="M0.0 298.0 L166.0 298.0" fill="none" data-name="ComplexCommand"></path>
+</g>
+<g transform="translate(0, 201)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ComplexCommand" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ComplexCommand" data-compartment="0">
+<a id="../../src/behavioral/Command/ComplexCommand.ts.ComplexCommand" xlink:href="../../src/behavioral/Command/ComplexCommand.ts"><text x="75.0" y="14.1" stroke="none" text-anchor="middle" data-name="ComplexCommand" data-compartment="0">ComplexCommand</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 233)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ComplexCommand" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ComplexCommand" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ComplexCommand" data-compartment="1">-receiver: Receiver</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ComplexCommand" data-compartment="1">-a: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ComplexCommand" data-compartment="1">-b: string</text>
+
+</g>
+</g>
+<g transform="translate(0, 298)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ComplexCommand" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ComplexCommand" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ComplexCommand" data-compartment="2">+execute(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Invoker">
+<g fill="#eee8d5" stroke="#33322E" data-name="Invoker">
+<rect x="293.8" y="0.0" height="161.0" width="260.0" data-name="Invoker"></rect>
+<path d="M293.8 32.0 L553.8 32.0" fill="none" data-name="Invoker"></path>
+<path d="M293.8 80.0 L553.8 80.0" fill="none" data-name="Invoker"></path>
+</g>
+<g transform="translate(293.75, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Invoker" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Invoker" data-compartment="0">
+<a id="../../src/behavioral/Command/Invoker.ts.Invoker" xlink:href="../../src/behavioral/Command/Invoker.ts"><text x="122.0" y="14.1" stroke="none" text-anchor="middle" data-name="Invoker" data-compartment="0">Invoker</text></a>
+
+</g>
+</g>
+<g transform="translate(293.75, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Invoker" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Invoker" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Invoker" data-compartment="1">-onStart: Command</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Invoker" data-compartment="1">-onFinish: Command</text>
+
+</g>
+</g>
+<g transform="translate(293.75, 80)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Invoker" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Invoker" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Invoker" data-compartment="2">+setOnStart(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Invoker" data-compartment="2">+setOnFinish(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Invoker" data-compartment="2">+doSomethingImportant(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Invoker" data-compartment="2">-isCommand(): boolean</text>
+
+</g>
+</g>
+</g>
+<g data-name="Receiver">
+<g fill="#eee8d5" stroke="#33322E" data-name="Receiver">
+<rect x="593.8" y="36.5" height="88.0" width="219.0" data-name="Receiver"></rect>
+<path d="M593.8 68.5 L812.8 68.5" fill="none" data-name="Receiver"></path>
+<path d="M593.8 76.5 L812.8 76.5" fill="none" data-name="Receiver"></path>
+</g>
+<g transform="translate(593.75, 36.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Receiver" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Receiver" data-compartment="0">
+<a id="../../src/behavioral/Command/Receiver.ts.Receiver" xlink:href="../../src/behavioral/Command/Receiver.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="Receiver" data-compartment="0">Receiver</text></a>
+
+</g>
+</g>
+<g transform="translate(593.75, 68.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Receiver" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Receiver" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(593.75, 76.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Receiver" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Receiver" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Receiver" data-compartment="2">+doSomething(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Receiver" data-compartment="2">+doSomethingElse(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="SimpleCommand">
+<g fill="#eee8d5" stroke="#33322E" data-name="SimpleCommand">
+<rect x="206.0" y="217.5" height="96.0" width="149.0" data-name="SimpleCommand"></rect>
+<path d="M206.0 249.5 L355.0 249.5" fill="none" data-name="SimpleCommand"></path>
+<path d="M206.0 281.5 L355.0 281.5" fill="none" data-name="SimpleCommand"></path>
+</g>
+<g transform="translate(206, 217.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="SimpleCommand" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="SimpleCommand" data-compartment="0">
+<a id="../../src/behavioral/Command/SimpleCommand.ts.SimpleCommand" xlink:href="../../src/behavioral/Command/SimpleCommand.ts"><text x="66.5" y="14.1" stroke="none" text-anchor="middle" data-name="SimpleCommand" data-compartment="0">SimpleCommand</text></a>
+
+</g>
+</g>
+<g transform="translate(206, 249.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="SimpleCommand" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="SimpleCommand" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="SimpleCommand" data-compartment="1">-payload: string</text>
+
+</g>
+</g>
+<g transform="translate(206, 281.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="SimpleCommand" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="SimpleCommand" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="SimpleCommand" data-compartment="2">+execute(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

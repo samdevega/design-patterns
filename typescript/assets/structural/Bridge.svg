@@ -1,0 +1,156 @@
+<svg version="1.1" baseProfile="full" width="964.8" height="264.0" viewBox="0 0 964.75 264" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Abstraction|\#implementation: Implementation|+operation(): string]
+[ConcreteImplementationA||+operationImplementation(): string]
+[Implementation]&lt;:--[ConcreteImplementationA]
+[ConcreteImplementationB||+operationImplementation(): string]
+[Implementation]&lt;:--[ConcreteImplementationB]
+[ExtendedAbstraction||+operation(): string]
+[Abstraction]&lt;:-[ExtendedAbstraction]
+[&lt;interface&gt;Implementation||+operationImplementation(): string]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="264.0" width="964.8" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M501.6 89.1 L436.75 116 L436.75 136 L436.8 136.0 " fill="none"></path>
+</g>
+<path d="M503.7 94.0 L501.6 89.1 L499.6 84.2 L513.9 84.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M699.9 89.1 L764.75 116 L764.75 136 L764.8 136.0 " fill="none"></path>
+</g>
+<path d="M701.9 84.2 L699.9 89.1 L697.8 94.0 L687.6 84.0 Z"></path>
+<path d="M138.5 109.3 L138.5 116 L138.5 136 L138.5 136.0 " fill="none"></path>
+<path d="M143.8 109.3 L138.5 109.3 L133.2 109.3 L138.5 96.0 Z"></path>
+<g data-name="Abstraction">
+<g fill="#eee8d5" stroke="#33322E" data-name="Abstraction">
+<rect x="0.0" y="0.0" height="96.0" width="277.0" data-name="Abstraction"></rect>
+<path d="M0.0 32.0 L277.0 32.0" fill="none" data-name="Abstraction"></path>
+<path d="M0.0 64.0 L277.0 64.0" fill="none" data-name="Abstraction"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Abstraction" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Abstraction" data-compartment="0">
+<a id="../../src/structural/Bridge/Abstraction.ts.Abstraction" xlink:href="../../src/structural/Bridge/Abstraction.ts"><text x="130.5" y="14.1" stroke="none" text-anchor="middle" data-name="Abstraction" data-compartment="0">Abstraction</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Abstraction" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Abstraction" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Abstraction" data-compartment="1">#implementation: Implementation</text>
+
+</g>
+</g>
+<g transform="translate(0, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Abstraction" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Abstraction" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Abstraction" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteImplementationA">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteImplementationA">
+<rect x="292.8" y="136.0" height="72.0" width="288.0" data-name="ConcreteImplementationA"></rect>
+<path d="M292.8 168.0 L580.8 168.0" fill="none" data-name="ConcreteImplementationA"></path>
+<path d="M292.8 176.0 L580.8 176.0" fill="none" data-name="ConcreteImplementationA"></path>
+</g>
+<g transform="translate(292.75, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteImplementationA" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteImplementationA" data-compartment="0">
+<a id="../../src/structural/Bridge/ConcreteImplementationA.ts.ConcreteImplementationA" xlink:href="../../src/structural/Bridge/ConcreteImplementationA.ts"><text x="136.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteImplementationA" data-compartment="0">ConcreteImplementationA</text></a>
+
+</g>
+</g>
+<g transform="translate(292.75, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteImplementationA" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteImplementationA" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(292.75, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteImplementationA" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteImplementationA" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteImplementationA" data-compartment="2">+operationImplementation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Implementation">
+<g fill="lightblue" stroke="#33322E" data-name="Implementation">
+<rect x="456.8" y="12.0" height="72.0" width="288.0" data-name="Implementation"></rect>
+<path d="M456.8 44.0 L744.8 44.0" fill="none" data-name="Implementation"></path>
+<path d="M456.8 52.0 L744.8 52.0" fill="none" data-name="Implementation"></path>
+</g>
+<g transform="translate(456.75, 12)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Implementation" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Implementation" data-compartment="0">
+<a id="../../src/structural/Bridge/Implementation.ts.Implementation" xlink:href="../../src/structural/Bridge/Implementation.ts"><text x="136.0" y="14.1" stroke="none" text-anchor="middle" data-name="Implementation" data-compartment="0">Implementation</text></a>
+
+</g>
+</g>
+<g transform="translate(456.75, 44)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Implementation" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Implementation" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(456.75, 52)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Implementation" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Implementation" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Implementation" data-compartment="2">+operationImplementation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteImplementationB">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteImplementationB">
+<rect x="620.8" y="136.0" height="72.0" width="288.0" data-name="ConcreteImplementationB"></rect>
+<path d="M620.8 168.0 L908.8 168.0" fill="none" data-name="ConcreteImplementationB"></path>
+<path d="M620.8 176.0 L908.8 176.0" fill="none" data-name="ConcreteImplementationB"></path>
+</g>
+<g transform="translate(620.75, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteImplementationB" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteImplementationB" data-compartment="0">
+<a id="../../src/structural/Bridge/ConcreteImplementationB.ts.ConcreteImplementationB" xlink:href="../../src/structural/Bridge/ConcreteImplementationB.ts"><text x="136.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteImplementationB" data-compartment="0">ConcreteImplementationB</text></a>
+
+</g>
+</g>
+<g transform="translate(620.75, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteImplementationB" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteImplementationB" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(620.75, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteImplementationB" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteImplementationB" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteImplementationB" data-compartment="2">+operationImplementation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="ExtendedAbstraction">
+<g fill="#eee8d5" stroke="#33322E" data-name="ExtendedAbstraction">
+<rect x="48.5" y="136.0" height="72.0" width="180.0" data-name="ExtendedAbstraction"></rect>
+<path d="M48.5 168.0 L228.5 168.0" fill="none" data-name="ExtendedAbstraction"></path>
+<path d="M48.5 176.0 L228.5 176.0" fill="none" data-name="ExtendedAbstraction"></path>
+</g>
+<g transform="translate(48.5, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ExtendedAbstraction" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ExtendedAbstraction" data-compartment="0">
+<a id="../../src/structural/Bridge/ExtendedAbstraction.ts.ExtendedAbstraction" xlink:href="../../src/structural/Bridge/ExtendedAbstraction.ts"><text x="82.0" y="14.1" stroke="none" text-anchor="middle" data-name="ExtendedAbstraction" data-compartment="0">ExtendedAbstraction</text></a>
+
+</g>
+</g>
+<g transform="translate(48.5, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ExtendedAbstraction" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ExtendedAbstraction" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(48.5, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ExtendedAbstraction" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ExtendedAbstraction" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ExtendedAbstraction" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

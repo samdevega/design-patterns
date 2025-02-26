@@ -1,0 +1,78 @@
+<svg version="1.1" baseProfile="full" width="267.0" height="346.0" viewBox="0 0 267 346" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[ConcretePrototype1|-attributeC: number;-attributeA: string;-attributeB: string|+clone(): Prototype;+getAttributeA(): string;+getAttributeB(): string;+getAttributeC(): number]
+[Prototype]&lt;:--[ConcretePrototype1]
+[&lt;interface&gt;Prototype||+clone(): Prototype]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="346.0" width="267.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M105.5 85.3 L105.5 92 L105.5 112 L105.5 112.0 " fill="none"></path>
+</g>
+<path d="M110.8 85.3 L105.5 85.3 L100.2 85.3 L105.5 72.0 Z"></path>
+<g data-name="ConcretePrototype1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcretePrototype1">
+<rect x="0.0" y="112.0" height="178.0" width="211.0" data-name="ConcretePrototype1"></rect>
+<path d="M0.0 144.0 L211.0 144.0" fill="none" data-name="ConcretePrototype1"></path>
+<path d="M0.0 209.0 L211.0 209.0" fill="none" data-name="ConcretePrototype1"></path>
+</g>
+<g transform="translate(0, 112)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcretePrototype1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcretePrototype1" data-compartment="0">
+<a id="../../src/creational/Prototype/ConcretePrototype1.ts.ConcretePrototype1" xlink:href="../../src/creational/Prototype/ConcretePrototype1.ts"><text x="97.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcretePrototype1" data-compartment="0">ConcretePrototype1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 144)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcretePrototype1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcretePrototype1" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcretePrototype1" data-compartment="1">-attributeC: number</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcretePrototype1" data-compartment="1">-attributeA: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ConcretePrototype1" data-compartment="1">-attributeB: string</text>
+
+</g>
+</g>
+<g transform="translate(0, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcretePrototype1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcretePrototype1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcretePrototype1" data-compartment="2">+clone(): Prototype</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcretePrototype1" data-compartment="2">+getAttributeA(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ConcretePrototype1" data-compartment="2">+getAttributeB(): string</text>
+<text x="0.0" y="62.7" stroke="none" data-name="ConcretePrototype1" data-compartment="2">+getAttributeC(): number</text>
+
+</g>
+</g>
+</g>
+<g data-name="Prototype">
+<g fill="lightblue" stroke="#33322E" data-name="Prototype">
+<rect x="22.0" y="0.0" height="72.0" width="167.0" data-name="Prototype"></rect>
+<path d="M22.0 32.0 L189.0 32.0" fill="none" data-name="Prototype"></path>
+<path d="M22.0 40.0 L189.0 40.0" fill="none" data-name="Prototype"></path>
+</g>
+<g transform="translate(22, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Prototype" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Prototype" data-compartment="0">
+<a id="../../src/creational/Prototype/Prototype.ts.Prototype" xlink:href="../../src/creational/Prototype/Prototype.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="Prototype" data-compartment="0">Prototype</text></a>
+
+</g>
+</g>
+<g transform="translate(22, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Prototype" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Prototype" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(22, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Prototype" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Prototype" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Prototype" data-compartment="2">+clone(): Prototype</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

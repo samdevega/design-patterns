@@ -1,0 +1,74 @@
+<svg version="1.1" baseProfile="full" width="490.0" height="250.0" viewBox="0 0 490 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Object1|-name: string|]
+[ObjectPool|-static instance: ObjectPool;-initialSize: number;-pool: Object1\[\]|-createObject(): Object1;+static getInstance(): ObjectPool;+getObject(): Object1;+releaseObject(): void;+size(): number]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="250.0" width="490.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="Object1">
+<g fill="#eee8d5" stroke="#33322E" data-name="Object1">
+<rect x="0.0" y="61.0" height="72.0" width="120.0" data-name="Object1"></rect>
+<path d="M0.0 93.0 L120.0 93.0" fill="none" data-name="Object1"></path>
+<path d="M0.0 125.0 L120.0 125.0" fill="none" data-name="Object1"></path>
+</g>
+<g transform="translate(0, 61)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Object1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Object1" data-compartment="0">
+<a id="../../src/creational/ObjectPool/Object1.ts.Object1" xlink:href="../../src/creational/ObjectPool/Object1.ts"><text x="52.0" y="14.1" stroke="none" text-anchor="middle" data-name="Object1" data-compartment="0">Object1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 93)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Object1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Object1" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Object1" data-compartment="1">-name: string</text>
+
+</g>
+</g>
+<g transform="translate(0, 125)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Object1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Object1" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="ObjectPool">
+<g fill="#eee8d5" stroke="#33322E" data-name="ObjectPool">
+<rect x="160.0" y="0.0" height="194.0" width="274.0" data-name="ObjectPool"></rect>
+<path d="M160.0 32.0 L434.0 32.0" fill="none" data-name="ObjectPool"></path>
+<path d="M160.0 97.0 L434.0 97.0" fill="none" data-name="ObjectPool"></path>
+</g>
+<g transform="translate(160, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ObjectPool" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ObjectPool" data-compartment="0">
+<a id="../../src/creational/ObjectPool/ObjectPool.ts.ObjectPool" xlink:href="../../src/creational/ObjectPool/ObjectPool.ts"><text x="129.0" y="14.1" stroke="none" text-anchor="middle" data-name="ObjectPool" data-compartment="0">ObjectPool</text></a>
+
+</g>
+</g>
+<g transform="translate(160, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ObjectPool" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ObjectPool" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ObjectPool" data-compartment="1">-static instance: ObjectPool</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ObjectPool" data-compartment="1">-initialSize: number</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ObjectPool" data-compartment="1">-pool: Object1[]</text>
+
+</g>
+</g>
+<g transform="translate(160, 97)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ObjectPool" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ObjectPool" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ObjectPool" data-compartment="2">-createObject(): Object1</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ObjectPool" data-compartment="2">+static getInstance(): ObjectPool</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ObjectPool" data-compartment="2">+getObject(): Object1</text>
+<text x="0.0" y="62.7" stroke="none" data-name="ObjectPool" data-compartment="2">+releaseObject(): void</text>
+<text x="0.0" y="78.9" stroke="none" data-name="ObjectPool" data-compartment="2">+size(): number</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

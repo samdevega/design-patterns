@@ -1,0 +1,158 @@
+<svg version="1.1" baseProfile="full" width="601.0" height="304.0" viewBox="0 0 601 304" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[BaseComponent|\#mediator?: Mediator|+setMediator(): void]
+[Component1||+doA(): void;+doB(): void]
+[BaseComponent]&lt;:-[Component1]
+[Component2||+doC(): void;+doD(): void]
+[BaseComponent]&lt;:-[Component2]
+[ConcreteMediator|-component1: Component1;-component2: Component2|+notify(): void]
+[Mediator]&lt;:--[ConcreteMediator]
+[&lt;interface&gt;Mediator||+notify(): void]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="304.0" width="601.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M71.5 104.7 L58.5 116 L58.5 148 L58.5 148.0 " fill="none"></path>
+<path d="M75.0 108.8 L71.5 104.7 L68.0 100.7 L81.6 96.0 Z"></path>
+<path d="M202.5 104.7 L215.5 116 L215.5 148 L215.5 148.0 " fill="none"></path>
+<path d="M206.0 100.7 L202.5 104.7 L199.0 108.8 L192.4 96.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M429.5 97.3 L429.5 116 L429.5 136 L429.5 136.0 " fill="none"></path>
+</g>
+<path d="M434.8 97.3 L429.5 97.3 L424.2 97.3 L429.5 84.0 Z"></path>
+<g data-name="BaseComponent">
+<g fill="#eee8d5" stroke="#33322E" data-name="BaseComponent">
+<rect x="45.0" y="0.0" height="96.0" width="184.0" data-name="BaseComponent"></rect>
+<path d="M45.0 32.0 L229.0 32.0" fill="none" data-name="BaseComponent"></path>
+<path d="M45.0 64.0 L229.0 64.0" fill="none" data-name="BaseComponent"></path>
+</g>
+<g transform="translate(45, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="BaseComponent" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="BaseComponent" data-compartment="0">
+<a id="../../src/behavioral/Mediator/BaseComponent.ts.BaseComponent" xlink:href="../../src/behavioral/Mediator/BaseComponent.ts"><text x="84.0" y="14.1" stroke="none" text-anchor="middle" data-name="BaseComponent" data-compartment="0">BaseComponent</text></a>
+
+</g>
+</g>
+<g transform="translate(45, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="BaseComponent" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="BaseComponent" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="BaseComponent" data-compartment="1">#mediator?: Mediator</text>
+
+</g>
+</g>
+<g transform="translate(45, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="BaseComponent" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="BaseComponent" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="BaseComponent" data-compartment="2">+setMediator(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Component1">
+<g fill="#eee8d5" stroke="#33322E" data-name="Component1">
+<rect x="0.0" y="148.0" height="88.0" width="117.0" data-name="Component1"></rect>
+<path d="M0.0 180.0 L117.0 180.0" fill="none" data-name="Component1"></path>
+<path d="M0.0 188.0 L117.0 188.0" fill="none" data-name="Component1"></path>
+</g>
+<g transform="translate(0, 148)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Component1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Component1" data-compartment="0">
+<a id="../../src/behavioral/Mediator/Component1.ts.Component1" xlink:href="../../src/behavioral/Mediator/Component1.ts"><text x="50.5" y="14.1" stroke="none" text-anchor="middle" data-name="Component1" data-compartment="0">Component1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 180)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Component1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 188)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Component1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Component1" data-compartment="2">+doA(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Component1" data-compartment="2">+doB(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Component2">
+<g fill="#eee8d5" stroke="#33322E" data-name="Component2">
+<rect x="157.0" y="148.0" height="88.0" width="117.0" data-name="Component2"></rect>
+<path d="M157.0 180.0 L274.0 180.0" fill="none" data-name="Component2"></path>
+<path d="M157.0 188.0 L274.0 188.0" fill="none" data-name="Component2"></path>
+</g>
+<g transform="translate(157, 148)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Component2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Component2" data-compartment="0">
+<a id="../../src/behavioral/Mediator/Component2.ts.Component2" xlink:href="../../src/behavioral/Mediator/Component2.ts"><text x="50.5" y="14.1" stroke="none" text-anchor="middle" data-name="Component2" data-compartment="0">Component2</text></a>
+
+</g>
+</g>
+<g transform="translate(157, 180)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Component2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(157, 188)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Component2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Component2" data-compartment="2">+doC(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Component2" data-compartment="2">+doD(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteMediator">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteMediator">
+<rect x="314.0" y="136.0" height="112.0" width="231.0" data-name="ConcreteMediator"></rect>
+<path d="M314.0 168.0 L545.0 168.0" fill="none" data-name="ConcreteMediator"></path>
+<path d="M314.0 216.0 L545.0 216.0" fill="none" data-name="ConcreteMediator"></path>
+</g>
+<g transform="translate(314, 136)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteMediator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteMediator" data-compartment="0">
+<a id="../../src/behavioral/Mediator/ConcreteMediator.ts.ConcreteMediator" xlink:href="../../src/behavioral/Mediator/ConcreteMediator.ts"><text x="107.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteMediator" data-compartment="0">ConcreteMediator</text></a>
+
+</g>
+</g>
+<g transform="translate(314, 168)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteMediator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteMediator" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteMediator" data-compartment="1">-component1: Component1</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteMediator" data-compartment="1">-component2: Component2</text>
+
+</g>
+</g>
+<g transform="translate(314, 216)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteMediator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteMediator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteMediator" data-compartment="2">+notify(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Mediator">
+<g fill="lightblue" stroke="#33322E" data-name="Mediator">
+<rect x="367.5" y="12.0" height="72.0" width="124.0" data-name="Mediator"></rect>
+<path d="M367.5 44.0 L491.5 44.0" fill="none" data-name="Mediator"></path>
+<path d="M367.5 52.0 L491.5 52.0" fill="none" data-name="Mediator"></path>
+</g>
+<g transform="translate(367.5, 12)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mediator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Mediator" data-compartment="0">
+<a id="../../src/behavioral/Mediator/Mediator.ts.Mediator" xlink:href="../../src/behavioral/Mediator/Mediator.ts"><text x="54.0" y="14.1" stroke="none" text-anchor="middle" data-name="Mediator" data-compartment="0">Mediator</text></a>
+
+</g>
+</g>
+<g transform="translate(367.5, 44)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mediator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Mediator" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(367.5, 52)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mediator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Mediator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Mediator" data-compartment="2">+notify(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

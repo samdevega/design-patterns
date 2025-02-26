@@ -1,0 +1,143 @@
+<svg version="1.1" baseProfile="full" width="640.0" height="427.0" viewBox="0 0 640 427" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;Aggregator||+getIterator(): Iterator&lt;string&gt;]
+[&lt;interface&gt;Iterator&lt;T&gt;||+current(): T;+next(): T;+key(): number;+valid(): boolean;+rewind(): void]
+[WordCollection|-items: string\[\]|+getItems(): string\[\];+getCount(): number;+addItem(): void;+getIterator(): Iterator&lt;string&gt;;+getReverseIterator(): Iterator&lt;string&gt;]
+[Aggregator]&lt;:--[WordCollection]
+[WordIterator|-collection: WordCollection;-reverse: boolean;-position: number|+current(): string;+next(): string;+key(): number;+valid(): boolean;+rewind(): void]
+[Iterator&lt;T&gt;]&lt;:--[WordIterator]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="427.0" width="640.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M158.5 117.8 L158.5 157 L158.5 193.5 L158.5 193.5 " fill="none"></path>
+</g>
+<path d="M163.8 117.8 L158.5 117.8 L153.2 117.8 L158.5 104.5 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M470.5 150.3 L470.5 157 L470.5 177 L470.5 177.0 " fill="none"></path>
+</g>
+<path d="M475.8 150.3 L470.5 150.3 L465.2 150.3 L470.5 137.0 Z"></path>
+<g data-name="Aggregator">
+<g fill="lightblue" stroke="#33322E" data-name="Aggregator">
+<rect x="33.0" y="32.5" height="72.0" width="251.0" data-name="Aggregator"></rect>
+<path d="M33.0 64.5 L284.0 64.5" fill="none" data-name="Aggregator"></path>
+<path d="M33.0 72.5 L284.0 72.5" fill="none" data-name="Aggregator"></path>
+</g>
+<g transform="translate(33, 32.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Aggregator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Aggregator" data-compartment="0">
+<a id="../../src/behavioral/Iterator/Aggregator.ts.Aggregator" xlink:href="../../src/behavioral/Iterator/Aggregator.ts"><text x="117.5" y="14.1" stroke="none" text-anchor="middle" data-name="Aggregator" data-compartment="0">Aggregator</text></a>
+
+</g>
+</g>
+<g transform="translate(33, 64.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Aggregator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Aggregator" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(33, 72.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Aggregator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Aggregator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Aggregator" data-compartment="2">+getIterator(): Iterator&lt;string&gt;</text>
+
+</g>
+</g>
+</g>
+<g data-name="Iterator&lt;T&gt;">
+<g fill="lightblue" stroke="#33322E" data-name="Iterator&lt;T&gt;">
+<rect x="396.0" y="0.0" height="137.0" width="149.0" data-name="Iterator&lt;T&gt;"></rect>
+<path d="M396.0 32.0 L545.0 32.0" fill="none" data-name="Iterator&lt;T&gt;"></path>
+<path d="M396.0 40.0 L545.0 40.0" fill="none" data-name="Iterator&lt;T&gt;"></path>
+</g>
+<g transform="translate(396, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Iterator&lt;T&gt;" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Iterator&lt;T&gt;" data-compartment="0">
+<a id="../../src/behavioral/Iterator/Iterator.ts.Iterator&lt;T&gt;" xlink:href="../../src/behavioral/Iterator/Iterator.ts"><text x="66.5" y="14.1" stroke="none" text-anchor="middle" data-name="Iterator&lt;T&gt;" data-compartment="0">Iterator&lt;T&gt;</text></a>
+
+</g>
+</g>
+<g transform="translate(396, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Iterator&lt;T&gt;" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Iterator&lt;T&gt;" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(396, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Iterator&lt;T&gt;" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Iterator&lt;T&gt;" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Iterator&lt;T&gt;" data-compartment="2">+current(): T</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Iterator&lt;T&gt;" data-compartment="2">+next(): T</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Iterator&lt;T&gt;" data-compartment="2">+key(): number</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Iterator&lt;T&gt;" data-compartment="2">+valid(): boolean</text>
+<text x="0.0" y="78.9" stroke="none" data-name="Iterator&lt;T&gt;" data-compartment="2">+rewind(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="WordCollection">
+<g fill="#eee8d5" stroke="#33322E" data-name="WordCollection">
+<rect x="0.0" y="193.5" height="161.0" width="317.0" data-name="WordCollection"></rect>
+<path d="M0.0 225.5 L317.0 225.5" fill="none" data-name="WordCollection"></path>
+<path d="M0.0 257.5 L317.0 257.5" fill="none" data-name="WordCollection"></path>
+</g>
+<g transform="translate(0, 193.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="WordCollection" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="WordCollection" data-compartment="0">
+<a id="../../src/behavioral/Iterator/WordCollection.ts.WordCollection" xlink:href="../../src/behavioral/Iterator/WordCollection.ts"><text x="150.5" y="14.1" stroke="none" text-anchor="middle" data-name="WordCollection" data-compartment="0">WordCollection</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 225.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WordCollection" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="WordCollection" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="WordCollection" data-compartment="1">-items: string[]</text>
+
+</g>
+</g>
+<g transform="translate(0, 257.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WordCollection" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="WordCollection" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="WordCollection" data-compartment="2">+getItems(): string[]</text>
+<text x="0.0" y="30.3" stroke="none" data-name="WordCollection" data-compartment="2">+getCount(): number</text>
+<text x="0.0" y="46.5" stroke="none" data-name="WordCollection" data-compartment="2">+addItem(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="WordCollection" data-compartment="2">+getIterator(): Iterator&lt;string&gt;</text>
+<text x="0.0" y="78.9" stroke="none" data-name="WordCollection" data-compartment="2">+getReverseIterator(): Iterator&lt;string&gt;</text>
+
+</g>
+</g>
+</g>
+<g data-name="WordIterator">
+<g fill="#eee8d5" stroke="#33322E" data-name="WordIterator">
+<rect x="357.0" y="177.0" height="194.0" width="227.0" data-name="WordIterator"></rect>
+<path d="M357.0 209.0 L584.0 209.0" fill="none" data-name="WordIterator"></path>
+<path d="M357.0 274.0 L584.0 274.0" fill="none" data-name="WordIterator"></path>
+</g>
+<g transform="translate(357, 177)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="WordIterator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="WordIterator" data-compartment="0">
+<a id="../../src/behavioral/Iterator/WordIterator.ts.WordIterator" xlink:href="../../src/behavioral/Iterator/WordIterator.ts"><text x="105.5" y="14.1" stroke="none" text-anchor="middle" data-name="WordIterator" data-compartment="0">WordIterator</text></a>
+
+</g>
+</g>
+<g transform="translate(357, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WordIterator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="WordIterator" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="WordIterator" data-compartment="1">-collection: WordCollection</text>
+<text x="0.0" y="30.3" stroke="none" data-name="WordIterator" data-compartment="1">-reverse: boolean</text>
+<text x="0.0" y="46.5" stroke="none" data-name="WordIterator" data-compartment="1">-position: number</text>
+
+</g>
+</g>
+<g transform="translate(357, 274)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WordIterator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="WordIterator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="WordIterator" data-compartment="2">+current(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="WordIterator" data-compartment="2">+next(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="WordIterator" data-compartment="2">+key(): number</text>
+<text x="0.0" y="62.7" stroke="none" data-name="WordIterator" data-compartment="2">+valid(): boolean</text>
+<text x="0.0" y="78.9" stroke="none" data-name="WordIterator" data-compartment="2">+rewind(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

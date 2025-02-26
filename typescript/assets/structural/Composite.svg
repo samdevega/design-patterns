@@ -1,0 +1,108 @@
+<svg version="1.1" baseProfile="full" width="472.0" height="418.0" viewBox="0 0 472 418" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Component|\#parent: Component|+setParent(): void;+getParent(): Component;+add(): void;+remove(): void;+isComposite(): boolean;+abstract operation(): string]
+[Composite|\#children: Component\[\]|+add(): void;+remove(): void;+isComposite(): boolean;+operation(): string]
+[Component]&lt;:-[Composite]
+[FinalComponent||+operation(): string]
+[Component]&lt;:-[FinalComponent]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="418.0" width="472.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M115.9 186.2 L104.5 197 L104.5 217 L104.5 217.0 " fill="none"></path>
+<path d="M119.5 190.1 L115.9 186.2 L112.2 182.3 L125.5 177.0 Z"></path>
+<path d="M321.1 186.2 L332.5 197 L332.5 253.5 L332.5 253.5 " fill="none"></path>
+<path d="M324.8 182.3 L321.1 186.2 L317.5 190.1 L311.5 177.0 Z"></path>
+<g data-name="Component">
+<g fill="#eee8d5" stroke="#33322E" data-name="Component">
+<rect x="100.5" y="0.0" height="177.0" width="236.0" data-name="Component"></rect>
+<path d="M100.5 32.0 L336.5 32.0" fill="none" data-name="Component"></path>
+<path d="M100.5 64.0 L336.5 64.0" fill="none" data-name="Component"></path>
+</g>
+<g transform="translate(100.5, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Component" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Component" data-compartment="0">
+<a id="../../src/structural/Composite/Component.ts.Component" xlink:href="../../src/structural/Composite/Component.ts"><text x="110.0" y="14.1" stroke="none" text-anchor="middle" data-name="Component" data-compartment="0">Component</text></a>
+
+</g>
+</g>
+<g transform="translate(100.5, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Component" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Component" data-compartment="1">#parent: Component</text>
+
+</g>
+</g>
+<g transform="translate(100.5, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Component" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Component" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Component" data-compartment="2">+setParent(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Component" data-compartment="2">+getParent(): Component</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Component" data-compartment="2">+add(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Component" data-compartment="2">+remove(): void</text>
+<text x="0.0" y="78.9" stroke="none" data-name="Component" data-compartment="2">+isComposite(): boolean</text>
+<text x="0.0" y="95.1" stroke="none" data-name="Component" data-compartment="2">+abstract operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Composite">
+<g fill="#eee8d5" stroke="#33322E" data-name="Composite">
+<rect x="0.0" y="217.0" height="145.0" width="209.0" data-name="Composite"></rect>
+<path d="M0.0 249.0 L209.0 249.0" fill="none" data-name="Composite"></path>
+<path d="M0.0 281.0 L209.0 281.0" fill="none" data-name="Composite"></path>
+</g>
+<g transform="translate(0, 217)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Composite" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Composite" data-compartment="0">
+<a id="../../src/structural/Composite/Composite.ts.Composite" xlink:href="../../src/structural/Composite/Composite.ts"><text x="96.5" y="14.1" stroke="none" text-anchor="middle" data-name="Composite" data-compartment="0">Composite</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 249)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Composite" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Composite" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Composite" data-compartment="1">#children: Component[]</text>
+
+</g>
+</g>
+<g transform="translate(0, 281)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Composite" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Composite" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Composite" data-compartment="2">+add(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Composite" data-compartment="2">+remove(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Composite" data-compartment="2">+isComposite(): boolean</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Composite" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="FinalComponent">
+<g fill="#eee8d5" stroke="#33322E" data-name="FinalComponent">
+<rect x="249.0" y="253.5" height="72.0" width="167.0" data-name="FinalComponent"></rect>
+<path d="M249.0 285.5 L416.0 285.5" fill="none" data-name="FinalComponent"></path>
+<path d="M249.0 293.5 L416.0 293.5" fill="none" data-name="FinalComponent"></path>
+</g>
+<g transform="translate(249, 253.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="FinalComponent" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="FinalComponent" data-compartment="0">
+<a id="../../src/structural/Composite/FinalComponent.ts.FinalComponent" xlink:href="../../src/structural/Composite/FinalComponent.ts"><text x="75.5" y="14.1" stroke="none" text-anchor="middle" data-name="FinalComponent" data-compartment="0">FinalComponent</text></a>
+
+</g>
+</g>
+<g transform="translate(249, 285.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FinalComponent" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="FinalComponent" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(249, 293.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FinalComponent" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="FinalComponent" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="FinalComponent" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

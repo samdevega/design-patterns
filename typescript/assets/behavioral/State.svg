@@ -1,0 +1,131 @@
+<svg version="1.1" baseProfile="full" width="542.0" height="313.0" viewBox="0 0 542 313" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[ConcreteStateA||+handle1(): void;+handle2(): void]
+[State]&lt;:-[ConcreteStateA]
+[ConcreteStateB||+handle1(): void;+handle2(): void]
+[State]&lt;:-[ConcreteStateB]
+[Context|-state: State|+transitionTo(): void;+request1(): void;+request2(): void]
+[State|\#context?: Context|+setContext(): void;+abstract handle1(): void;+abstract handle2(): void]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="313.0" width="542.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M84.5 138.0 L72.5 149 L72.5 169 L72.5 169.0 " fill="none"></path>
+<path d="M88.1 141.9 L84.5 138.0 L81.0 134.1 L94.4 129.0 Z"></path>
+<path d="M245.5 138.0 L257.5 149 L257.5 169 L257.5 169.0 " fill="none"></path>
+<path d="M249.0 134.1 L245.5 138.0 L241.9 141.9 L235.6 129.0 Z"></path>
+<g data-name="ConcreteStateA">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteStateA">
+<rect x="0.0" y="169.0" height="88.0" width="145.0" data-name="ConcreteStateA"></rect>
+<path d="M0.0 201.0 L145.0 201.0" fill="none" data-name="ConcreteStateA"></path>
+<path d="M0.0 209.0 L145.0 209.0" fill="none" data-name="ConcreteStateA"></path>
+</g>
+<g transform="translate(0, 169)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteStateA" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteStateA" data-compartment="0">
+<a id="../../src/behavioral/State/ConcreteStateA.ts.ConcreteStateA" xlink:href="../../src/behavioral/State/ConcreteStateA.ts"><text x="64.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteStateA" data-compartment="0">ConcreteStateA</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 201)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStateA" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteStateA" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStateA" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteStateA" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteStateA" data-compartment="2">+handle1(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteStateA" data-compartment="2">+handle2(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="State">
+<g fill="#eee8d5" stroke="#33322E" data-name="State">
+<rect x="58.0" y="0.0" height="129.0" width="214.0" data-name="State"></rect>
+<path d="M58.0 32.0 L272.0 32.0" fill="none" data-name="State"></path>
+<path d="M58.0 64.0 L272.0 64.0" fill="none" data-name="State"></path>
+</g>
+<g transform="translate(58, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="State" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="State" data-compartment="0">
+<a id="../../src/behavioral/State/State.ts.State" xlink:href="../../src/behavioral/State/State.ts"><text x="99.0" y="14.1" stroke="none" text-anchor="middle" data-name="State" data-compartment="0">State</text></a>
+
+</g>
+</g>
+<g transform="translate(58, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="State" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="State" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="State" data-compartment="1">#context?: Context</text>
+
+</g>
+</g>
+<g transform="translate(58, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="State" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="State" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="State" data-compartment="2">+setContext(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="State" data-compartment="2">+abstract handle1(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="State" data-compartment="2">+abstract handle2(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteStateB">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteStateB">
+<rect x="185.0" y="169.0" height="88.0" width="145.0" data-name="ConcreteStateB"></rect>
+<path d="M185.0 201.0 L330.0 201.0" fill="none" data-name="ConcreteStateB"></path>
+<path d="M185.0 209.0 L330.0 209.0" fill="none" data-name="ConcreteStateB"></path>
+</g>
+<g transform="translate(185, 169)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteStateB" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteStateB" data-compartment="0">
+<a id="../../src/behavioral/State/ConcreteStateB.ts.ConcreteStateB" xlink:href="../../src/behavioral/State/ConcreteStateB.ts"><text x="64.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteStateB" data-compartment="0">ConcreteStateB</text></a>
+
+</g>
+</g>
+<g transform="translate(185, 201)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStateB" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteStateB" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(185, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteStateB" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteStateB" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteStateB" data-compartment="2">+handle1(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteStateB" data-compartment="2">+handle2(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Context">
+<g fill="#eee8d5" stroke="#33322E" data-name="Context">
+<rect x="312.0" y="0.0" height="129.0" width="174.0" data-name="Context"></rect>
+<path d="M312.0 32.0 L486.0 32.0" fill="none" data-name="Context"></path>
+<path d="M312.0 64.0 L486.0 64.0" fill="none" data-name="Context"></path>
+</g>
+<g transform="translate(312, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Context" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Context" data-compartment="0">
+<a id="../../src/behavioral/State/Context.ts.Context" xlink:href="../../src/behavioral/State/Context.ts"><text x="79.0" y="14.1" stroke="none" text-anchor="middle" data-name="Context" data-compartment="0">Context</text></a>
+
+</g>
+</g>
+<g transform="translate(312, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Context" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Context" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Context" data-compartment="1">-state: State</text>
+
+</g>
+</g>
+<g transform="translate(312, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Context" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Context" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Context" data-compartment="2">+transitionTo(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Context" data-compartment="2">+request1(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Context" data-compartment="2">+request2(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,130 @@
+<svg version="1.1" baseProfile="full" width="762.0" height="337.0" viewBox="0 0 762 337" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Caretaker|-mementos: Memento\[\];-originator: Originator|+backup(): void;+undo(): void]
+[ConcreteMemento|-state: string|+getContent(): string]
+[Memento]&lt;:--[ConcreteMemento]
+[&lt;interface&gt;Memento||+getContent(): string]
+[Originator|-state: string|+addSomething(): void;+getContent(): string;+createMemento(): Memento;+restoreFromMemento(): void]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="337.0" width="762.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M326.5 121.8 L326.5 165 L326.5 185 L326.5 185.0 " fill="none"></path>
+</g>
+<path d="M331.8 121.8 L326.5 121.8 L321.2 121.8 L326.5 108.5 Z"></path>
+<g data-name="Caretaker">
+<g fill="#eee8d5" stroke="#33322E" data-name="Caretaker">
+<rect x="0.0" y="8.5" height="128.0" width="197.0" data-name="Caretaker"></rect>
+<path d="M0.0 40.5 L197.0 40.5" fill="none" data-name="Caretaker"></path>
+<path d="M0.0 88.5 L197.0 88.5" fill="none" data-name="Caretaker"></path>
+</g>
+<g transform="translate(0, 8.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Caretaker" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Caretaker" data-compartment="0">
+<a id="../../src/behavioral/Memento/Caretaker.ts.Caretaker" xlink:href="../../src/behavioral/Memento/Caretaker.ts"><text x="90.5" y="14.1" stroke="none" text-anchor="middle" data-name="Caretaker" data-compartment="0">Caretaker</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 40.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Caretaker" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Caretaker" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Caretaker" data-compartment="1">-mementos: Memento[]</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Caretaker" data-compartment="1">-originator: Originator</text>
+
+</g>
+</g>
+<g transform="translate(0, 88.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Caretaker" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Caretaker" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Caretaker" data-compartment="2">+backup(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Caretaker" data-compartment="2">+undo(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteMemento">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteMemento">
+<rect x="237.0" y="185.0" height="96.0" width="179.0" data-name="ConcreteMemento"></rect>
+<path d="M237.0 217.0 L416.0 217.0" fill="none" data-name="ConcreteMemento"></path>
+<path d="M237.0 249.0 L416.0 249.0" fill="none" data-name="ConcreteMemento"></path>
+</g>
+<g transform="translate(237, 185)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteMemento" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteMemento" data-compartment="0">
+<a id="../../src/behavioral/Memento/ConcreteMemento.ts.ConcreteMemento" xlink:href="../../src/behavioral/Memento/ConcreteMemento.ts"><text x="81.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteMemento" data-compartment="0">ConcreteMemento</text></a>
+
+</g>
+</g>
+<g transform="translate(237, 217)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteMemento" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteMemento" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteMemento" data-compartment="1">-state: string</text>
+
+</g>
+</g>
+<g transform="translate(237, 249)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteMemento" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteMemento" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteMemento" data-compartment="2">+getContent(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Memento">
+<g fill="lightblue" stroke="#33322E" data-name="Memento">
+<rect x="237.0" y="36.5" height="72.0" width="179.0" data-name="Memento"></rect>
+<path d="M237.0 68.5 L416.0 68.5" fill="none" data-name="Memento"></path>
+<path d="M237.0 76.5 L416.0 76.5" fill="none" data-name="Memento"></path>
+</g>
+<g transform="translate(237, 36.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Memento" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Memento" data-compartment="0">
+<a id="../../src/behavioral/Memento/Memento.ts.Memento" xlink:href="../../src/behavioral/Memento/Memento.ts"><text x="81.5" y="14.1" stroke="none" text-anchor="middle" data-name="Memento" data-compartment="0">Memento</text></a>
+
+</g>
+</g>
+<g transform="translate(237, 68.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Memento" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Memento" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(237, 76.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Memento" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Memento" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Memento" data-compartment="2">+getContent(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Originator">
+<g fill="#eee8d5" stroke="#33322E" data-name="Originator">
+<rect x="456.0" y="0.0" height="145.0" width="250.0" data-name="Originator"></rect>
+<path d="M456.0 32.0 L706.0 32.0" fill="none" data-name="Originator"></path>
+<path d="M456.0 64.0 L706.0 64.0" fill="none" data-name="Originator"></path>
+</g>
+<g transform="translate(456, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Originator" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Originator" data-compartment="0">
+<a id="../../src/behavioral/Memento/Originator.ts.Originator" xlink:href="../../src/behavioral/Memento/Originator.ts"><text x="117.0" y="14.1" stroke="none" text-anchor="middle" data-name="Originator" data-compartment="0">Originator</text></a>
+
+</g>
+</g>
+<g transform="translate(456, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Originator" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Originator" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Originator" data-compartment="1">-state: string</text>
+
+</g>
+</g>
+<g transform="translate(456, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Originator" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Originator" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Originator" data-compartment="2">+addSomething(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Originator" data-compartment="2">+getContent(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Originator" data-compartment="2">+createMemento(): Memento</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Originator" data-compartment="2">+restoreFromMemento(): void</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

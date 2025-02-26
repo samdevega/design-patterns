@@ -1,0 +1,95 @@
+<svg version="1.1" baseProfile="full" width="686.0" height="185.0" viewBox="0 0 686 185" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Flyweight|-sharedState: any|+operation(): string\[\]]
+[FlyweightFactory|-flyweights: FlyweightList|-getKey(): string;+getFlyweight(): Flyweight;+listFlyweights(): FlyweightList]
+[&lt;interface&gt;FlyweightList||]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="185.0" width="686.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="Flyweight">
+<g fill="#eee8d5" stroke="#33322E" data-name="Flyweight">
+<rect x="0.0" y="16.5" height="96.0" width="177.0" data-name="Flyweight"></rect>
+<path d="M0.0 48.5 L177.0 48.5" fill="none" data-name="Flyweight"></path>
+<path d="M0.0 80.5 L177.0 80.5" fill="none" data-name="Flyweight"></path>
+</g>
+<g transform="translate(0, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Flyweight" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Flyweight" data-compartment="0">
+<a id="../../src/structural/Flyweight/Flyweight.ts.Flyweight" xlink:href="../../src/structural/Flyweight/Flyweight.ts"><text x="80.5" y="14.1" stroke="none" text-anchor="middle" data-name="Flyweight" data-compartment="0">Flyweight</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Flyweight" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Flyweight" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Flyweight" data-compartment="1">-sharedState: any</text>
+
+</g>
+</g>
+<g transform="translate(0, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Flyweight" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Flyweight" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Flyweight" data-compartment="2">+operation(): string[]</text>
+
+</g>
+</g>
+</g>
+<g data-name="FlyweightFactory">
+<g fill="#eee8d5" stroke="#33322E" data-name="FlyweightFactory">
+<rect x="217.0" y="0.0" height="129.0" width="255.0" data-name="FlyweightFactory"></rect>
+<path d="M217.0 32.0 L472.0 32.0" fill="none" data-name="FlyweightFactory"></path>
+<path d="M217.0 64.0 L472.0 64.0" fill="none" data-name="FlyweightFactory"></path>
+</g>
+<g transform="translate(217, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="FlyweightFactory" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="FlyweightFactory" data-compartment="0">
+<a id="../../src/structural/Flyweight/FlyweightFactory.ts.FlyweightFactory" xlink:href="../../src/structural/Flyweight/FlyweightFactory.ts"><text x="119.5" y="14.1" stroke="none" text-anchor="middle" data-name="FlyweightFactory" data-compartment="0">FlyweightFactory</text></a>
+
+</g>
+</g>
+<g transform="translate(217, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FlyweightFactory" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="FlyweightFactory" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="FlyweightFactory" data-compartment="1">-flyweights: FlyweightList</text>
+
+</g>
+</g>
+<g transform="translate(217, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FlyweightFactory" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="FlyweightFactory" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="FlyweightFactory" data-compartment="2">-getKey(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="FlyweightFactory" data-compartment="2">+getFlyweight(): Flyweight</text>
+<text x="0.0" y="46.5" stroke="none" data-name="FlyweightFactory" data-compartment="2">+listFlyweights(): FlyweightList</text>
+
+</g>
+</g>
+</g>
+<g data-name="FlyweightList">
+<g fill="lightblue" stroke="#33322E" data-name="FlyweightList">
+<rect x="512.0" y="40.5" height="48.0" width="118.0" data-name="FlyweightList"></rect>
+<path d="M512.0 72.5 L630.0 72.5" fill="none" data-name="FlyweightList"></path>
+<path d="M512.0 80.5 L630.0 80.5" fill="none" data-name="FlyweightList"></path>
+</g>
+<g transform="translate(512, 40.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FlyweightList" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="FlyweightList" data-compartment="0">
+<a id="../../src/structural/Flyweight/FlyweightFactory.ts.FlyweightList" xlink:href="../../src/structural/Flyweight/FlyweightFactory.ts"><text x="51.0" y="14.1" stroke="none" text-anchor="middle" data-name="FlyweightList" data-compartment="0">FlyweightList</text></a>
+
+</g>
+</g>
+<g transform="translate(512, 72.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FlyweightList" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="FlyweightList" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(512, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="FlyweightList" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="FlyweightList" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

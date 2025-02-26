@@ -1,0 +1,166 @@
+<svg version="1.1" baseProfile="full" width="790.0" height="386.0" viewBox="0 0 790 386" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;Builder||+buildPartA(): void;+buildPartB(): void;+buildPartC(): void;+getProduct(): Product]
+[ConcreteBuilder1|-product: Product1|-reset(): void;+buildPartA(): void;+buildPartB(): void;+buildPartC(): void;+getProduct(): Product1]
+[Builder]&lt;:--[ConcreteBuilder1]
+[Director|-builder: Builder|+setBuilder(): void;+buildMinimalViableProduct(): void;+buildFullFeaturedProduct(): void]
+[&lt;interface&gt;Product||+add(): void;+listParts(): string\[\]]
+[Product1|-parts: string\[\]|+add(): void;+listParts(): string\[\]]
+[Product]&lt;:--[Product1]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="386.0" width="790.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M102.5 138.3 L102.5 149 L102.5 169 L102.5 169.0 " fill="none"></path>
+</g>
+<path d="M107.8 138.3 L102.5 138.3 L97.2 138.3 L102.5 125.0 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M651.5 121.8 L651.5 149 L651.5 193.5 L651.5 193.5 " fill="none"></path>
+</g>
+<path d="M656.8 121.8 L651.5 121.8 L646.2 121.8 L651.5 108.5 Z"></path>
+<g data-name="Builder">
+<g fill="lightblue" stroke="#33322E" data-name="Builder">
+<rect x="5.0" y="4.0" height="121.0" width="195.0" data-name="Builder"></rect>
+<path d="M5.0 36.0 L200.0 36.0" fill="none" data-name="Builder"></path>
+<path d="M5.0 44.0 L200.0 44.0" fill="none" data-name="Builder"></path>
+</g>
+<g transform="translate(5, 4)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Builder" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Builder" data-compartment="0">
+<a id="../../src/creational/Builder/Builder.ts.Builder" xlink:href="../../src/creational/Builder/Builder.ts"><text x="89.5" y="14.1" stroke="none" text-anchor="middle" data-name="Builder" data-compartment="0">Builder</text></a>
+
+</g>
+</g>
+<g transform="translate(5, 36)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Builder" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Builder" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(5, 44)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Builder" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Builder" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Builder" data-compartment="2">+buildPartA(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Builder" data-compartment="2">+buildPartB(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Builder" data-compartment="2">+buildPartC(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="Builder" data-compartment="2">+getProduct(): Product</text>
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteBuilder1">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteBuilder1">
+<rect x="0.0" y="169.0" height="161.0" width="205.0" data-name="ConcreteBuilder1"></rect>
+<path d="M0.0 201.0 L205.0 201.0" fill="none" data-name="ConcreteBuilder1"></path>
+<path d="M0.0 233.0 L205.0 233.0" fill="none" data-name="ConcreteBuilder1"></path>
+</g>
+<g transform="translate(0, 169)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteBuilder1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteBuilder1" data-compartment="0">
+<a id="../../src/creational/Builder/ConcreteBuilder1.ts.ConcreteBuilder1" xlink:href="../../src/creational/Builder/ConcreteBuilder1.ts"><text x="94.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteBuilder1" data-compartment="0">ConcreteBuilder1</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 201)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteBuilder1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteBuilder1" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteBuilder1" data-compartment="1">-product: Product1</text>
+
+</g>
+</g>
+<g transform="translate(0, 233)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteBuilder1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteBuilder1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteBuilder1" data-compartment="2">-reset(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteBuilder1" data-compartment="2">+buildPartA(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ConcreteBuilder1" data-compartment="2">+buildPartB(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="ConcreteBuilder1" data-compartment="2">+buildPartC(): void</text>
+<text x="0.0" y="78.9" stroke="none" data-name="ConcreteBuilder1" data-compartment="2">+getProduct(): Product1</text>
+
+</g>
+</g>
+</g>
+<g data-name="Director">
+<g fill="#eee8d5" stroke="#33322E" data-name="Director">
+<rect x="240.0" y="0.0" height="129.0" width="289.0" data-name="Director"></rect>
+<path d="M240.0 32.0 L529.0 32.0" fill="none" data-name="Director"></path>
+<path d="M240.0 64.0 L529.0 64.0" fill="none" data-name="Director"></path>
+</g>
+<g transform="translate(240, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Director" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Director" data-compartment="0">
+<a id="../../src/creational/Builder/Director.ts.Director" xlink:href="../../src/creational/Builder/Director.ts"><text x="136.5" y="14.1" stroke="none" text-anchor="middle" data-name="Director" data-compartment="0">Director</text></a>
+
+</g>
+</g>
+<g transform="translate(240, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Director" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Director" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Director" data-compartment="1">-builder: Builder</text>
+
+</g>
+</g>
+<g transform="translate(240, 64)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Director" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Director" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Director" data-compartment="2">+setBuilder(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Director" data-compartment="2">+buildMinimalViableProduct(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Director" data-compartment="2">+buildFullFeaturedProduct(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Product">
+<g fill="lightblue" stroke="#33322E" data-name="Product">
+<rect x="569.0" y="20.5" height="88.0" width="165.0" data-name="Product"></rect>
+<path d="M569.0 52.5 L734.0 52.5" fill="none" data-name="Product"></path>
+<path d="M569.0 60.5 L734.0 60.5" fill="none" data-name="Product"></path>
+</g>
+<g transform="translate(569, 20.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Product" data-compartment="0">
+<a id="../../src/creational/Builder/Product.ts.Product" xlink:href="../../src/creational/Builder/Product.ts"><text x="74.5" y="14.1" stroke="none" text-anchor="middle" data-name="Product" data-compartment="0">Product</text></a>
+
+</g>
+</g>
+<g transform="translate(569, 52.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Product" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(569, 60.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Product" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Product" data-compartment="2">+add(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Product" data-compartment="2">+listParts(): string[]</text>
+
+</g>
+</g>
+</g>
+<g data-name="Product1">
+<g fill="#eee8d5" stroke="#33322E" data-name="Product1">
+<rect x="569.0" y="193.5" height="112.0" width="165.0" data-name="Product1"></rect>
+<path d="M569.0 225.5 L734.0 225.5" fill="none" data-name="Product1"></path>
+<path d="M569.0 257.5 L734.0 257.5" fill="none" data-name="Product1"></path>
+</g>
+<g transform="translate(569, 193.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Product1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Product1" data-compartment="0">
+<a id="../../src/creational/Builder/Product1.ts.Product1" xlink:href="../../src/creational/Builder/Product1.ts"><text x="74.5" y="14.1" stroke="none" text-anchor="middle" data-name="Product1" data-compartment="0">Product1</text></a>
+
+</g>
+</g>
+<g transform="translate(569, 225.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Product1" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Product1" data-compartment="1">-parts: string[]</text>
+
+</g>
+</g>
+<g transform="translate(569, 257.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Product1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Product1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Product1" data-compartment="2">+add(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Product1" data-compartment="2">+listParts(): string[]</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

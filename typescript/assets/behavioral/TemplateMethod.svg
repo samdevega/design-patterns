@@ -1,0 +1,106 @@
+<svg version="1.1" baseProfile="full" width="510.0" height="338.0" viewBox="0 0 510 338" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[BeverageMaker||+makeBeverage(): string;+addCup(): string;+abstract addSpice(): string;+abstract addLiquid(): string;+abstract addCondiment(): string]
+[CoffeeMaker||+addSpice(): string;+addLiquid(): string;+addCondiment(): string]
+[BeverageMaker]&lt;:-[CoffeeMaker]
+[TeaMaker||+addSpice(): string;+addLiquid(): string;+addCondiment(): string]
+[BeverageMaker]&lt;:-[TeaMaker]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="338.0" width="510.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M120.6 144.8 L103.5 157 L103.5 177 L103.5 177.0 " fill="none"></path>
+<path d="M123.7 149.1 L120.6 144.8 L117.5 140.4 L131.4 137.0 Z"></path>
+<path d="M333.4 144.8 L350.5 157 L350.5 177 L350.5 177.0 " fill="none"></path>
+<path d="M336.5 140.4 L333.4 144.8 L330.3 149.1 L322.6 137.0 Z"></path>
+<g data-name="BeverageMaker">
+<g fill="#eee8d5" stroke="#33322E" data-name="BeverageMaker">
+<rect x="89.0" y="0.0" height="137.0" width="276.0" data-name="BeverageMaker"></rect>
+<path d="M89.0 32.0 L365.0 32.0" fill="none" data-name="BeverageMaker"></path>
+<path d="M89.0 40.0 L365.0 40.0" fill="none" data-name="BeverageMaker"></path>
+</g>
+<g transform="translate(89, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="BeverageMaker" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="BeverageMaker" data-compartment="0">
+<a id="../../src/behavioral/TemplateMethod/BeverageMaker.ts.BeverageMaker" xlink:href="../../src/behavioral/TemplateMethod/BeverageMaker.ts"><text x="130.0" y="14.1" stroke="none" text-anchor="middle" data-name="BeverageMaker" data-compartment="0">BeverageMaker</text></a>
+
+</g>
+</g>
+<g transform="translate(89, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="BeverageMaker" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="BeverageMaker" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(89, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="BeverageMaker" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="BeverageMaker" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="BeverageMaker" data-compartment="2">+makeBeverage(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="BeverageMaker" data-compartment="2">+addCup(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="BeverageMaker" data-compartment="2">+abstract addSpice(): string</text>
+<text x="0.0" y="62.7" stroke="none" data-name="BeverageMaker" data-compartment="2">+abstract addLiquid(): string</text>
+<text x="0.0" y="78.9" stroke="none" data-name="BeverageMaker" data-compartment="2">+abstract addCondiment(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="CoffeeMaker">
+<g fill="#eee8d5" stroke="#33322E" data-name="CoffeeMaker">
+<rect x="0.0" y="177.0" height="105.0" width="207.0" data-name="CoffeeMaker"></rect>
+<path d="M0.0 209.0 L207.0 209.0" fill="none" data-name="CoffeeMaker"></path>
+<path d="M0.0 217.0 L207.0 217.0" fill="none" data-name="CoffeeMaker"></path>
+</g>
+<g transform="translate(0, 177)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="CoffeeMaker" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="CoffeeMaker" data-compartment="0">
+<a id="../../src/behavioral/TemplateMethod/CoffeeMaker.ts.CoffeeMaker" xlink:href="../../src/behavioral/TemplateMethod/CoffeeMaker.ts"><text x="95.5" y="14.1" stroke="none" text-anchor="middle" data-name="CoffeeMaker" data-compartment="0">CoffeeMaker</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CoffeeMaker" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="CoffeeMaker" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 217)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CoffeeMaker" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="CoffeeMaker" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="CoffeeMaker" data-compartment="2">+addSpice(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="CoffeeMaker" data-compartment="2">+addLiquid(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="CoffeeMaker" data-compartment="2">+addCondiment(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="TeaMaker">
+<g fill="#eee8d5" stroke="#33322E" data-name="TeaMaker">
+<rect x="247.0" y="177.0" height="105.0" width="207.0" data-name="TeaMaker"></rect>
+<path d="M247.0 209.0 L454.0 209.0" fill="none" data-name="TeaMaker"></path>
+<path d="M247.0 217.0 L454.0 217.0" fill="none" data-name="TeaMaker"></path>
+</g>
+<g transform="translate(247, 177)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="TeaMaker" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="TeaMaker" data-compartment="0">
+<a id="../../src/behavioral/TemplateMethod/TeaMaker.ts.TeaMaker" xlink:href="../../src/behavioral/TemplateMethod/TeaMaker.ts"><text x="95.5" y="14.1" stroke="none" text-anchor="middle" data-name="TeaMaker" data-compartment="0">TeaMaker</text></a>
+
+</g>
+</g>
+<g transform="translate(247, 209)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="TeaMaker" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="TeaMaker" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(247, 217)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="TeaMaker" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="TeaMaker" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="TeaMaker" data-compartment="2">+addSpice(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="TeaMaker" data-compartment="2">+addLiquid(): string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="TeaMaker" data-compartment="2">+addCondiment(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

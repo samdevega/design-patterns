@@ -1,0 +1,96 @@
+<svg version="1.1" baseProfile="full" width="720.0" height="168.0" viewBox="0 0 720 168" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Facade|\#subsystem1: Subsystem1;\#subsystem2: Subsystem2|+operation(): string]
+[Subsystem1||+operation1(): string;+operationN(): string]
+[Subsystem2||+operation1(): string;+operationZ(): string]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="168.0" width="720.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="Facade">
+<g fill="#eee8d5" stroke="#33322E" data-name="Facade">
+<rect x="0.0" y="0.0" height="112.0" width="228.0" data-name="Facade"></rect>
+<path d="M0.0 32.0 L228.0 32.0" fill="none" data-name="Facade"></path>
+<path d="M0.0 80.0 L228.0 80.0" fill="none" data-name="Facade"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Facade" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Facade" data-compartment="0">
+<a id="../../src/structural/Facade/Facade.ts.Facade" xlink:href="../../src/structural/Facade/Facade.ts"><text x="106.0" y="14.1" stroke="none" text-anchor="middle" data-name="Facade" data-compartment="0">Facade</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Facade" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Facade" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Facade" data-compartment="1">#subsystem1: Subsystem1</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Facade" data-compartment="1">#subsystem2: Subsystem2</text>
+
+</g>
+</g>
+<g transform="translate(0, 80)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Facade" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Facade" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Facade" data-compartment="2">+operation(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Subsystem1">
+<g fill="#eee8d5" stroke="#33322E" data-name="Subsystem1">
+<rect x="268.0" y="12.0" height="88.0" width="179.0" data-name="Subsystem1"></rect>
+<path d="M268.0 44.0 L447.0 44.0" fill="none" data-name="Subsystem1"></path>
+<path d="M268.0 52.0 L447.0 52.0" fill="none" data-name="Subsystem1"></path>
+</g>
+<g transform="translate(268, 12)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Subsystem1" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Subsystem1" data-compartment="0">
+<a id="../../src/structural/Facade/Subsystem1.ts.Subsystem1" xlink:href="../../src/structural/Facade/Subsystem1.ts"><text x="81.5" y="14.1" stroke="none" text-anchor="middle" data-name="Subsystem1" data-compartment="0">Subsystem1</text></a>
+
+</g>
+</g>
+<g transform="translate(268, 44)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subsystem1" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Subsystem1" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(268, 52)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subsystem1" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Subsystem1" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Subsystem1" data-compartment="2">+operation1(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Subsystem1" data-compartment="2">+operationN(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Subsystem2">
+<g fill="#eee8d5" stroke="#33322E" data-name="Subsystem2">
+<rect x="487.0" y="12.0" height="88.0" width="177.0" data-name="Subsystem2"></rect>
+<path d="M487.0 44.0 L664.0 44.0" fill="none" data-name="Subsystem2"></path>
+<path d="M487.0 52.0 L664.0 52.0" fill="none" data-name="Subsystem2"></path>
+</g>
+<g transform="translate(487, 12)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Subsystem2" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Subsystem2" data-compartment="0">
+<a id="../../src/structural/Facade/Subsystem2.ts.Subsystem2" xlink:href="../../src/structural/Facade/Subsystem2.ts"><text x="80.5" y="14.1" stroke="none" text-anchor="middle" data-name="Subsystem2" data-compartment="0">Subsystem2</text></a>
+
+</g>
+</g>
+<g transform="translate(487, 44)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subsystem2" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Subsystem2" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(487, 52)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subsystem2" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Subsystem2" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Subsystem2" data-compartment="2">+operation1(): string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Subsystem2" data-compartment="2">+operationZ(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

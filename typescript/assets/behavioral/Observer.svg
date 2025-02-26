@@ -1,0 +1,134 @@
+<svg version="1.1" baseProfile="full" width="678.0" height="362.0" viewBox="0 0 678 362" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[ConcreteObserver||+update(): void]
+[Observer]&lt;:--[ConcreteObserver]
+[ConcreteSubject|-observers: Observer\[\];-event: string|+attach(): void;+detach(): void;+notify(): void;+setState(): void]
+[Subject]&lt;:--[ConcreteSubject]
+[&lt;interface&gt;Observer|+update: (event: string) =&gt; void|]
+[&lt;interface&gt;Subject|+attach: (observer: Observer) =&gt; void;+detach: (observer: Observer) =&gt; void;+notify: () =&gt; void|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="362.0" width="678.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<g stroke-dasharray="6 6">
+<path d="M132.0 101.8 L132 125 L132 189.5 L132.0 189.5 " fill="none"></path>
+</g>
+<path d="M137.3 101.8 L132.0 101.8 L126.7 101.8 L132.0 88.5 Z"></path>
+<g stroke-dasharray="6 6">
+<path d="M463.0 118.3 L463 125 L463 145 L463.0 145.0 " fill="none"></path>
+</g>
+<path d="M468.3 118.3 L463.0 118.3 L457.7 118.3 L463.0 105.0 Z"></path>
+<g data-name="ConcreteObserver">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteObserver">
+<rect x="51.5" y="189.5" height="72.0" width="161.0" data-name="ConcreteObserver"></rect>
+<path d="M51.5 221.5 L212.5 221.5" fill="none" data-name="ConcreteObserver"></path>
+<path d="M51.5 229.5 L212.5 229.5" fill="none" data-name="ConcreteObserver"></path>
+</g>
+<g transform="translate(51.5, 189.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteObserver" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteObserver" data-compartment="0">
+<a id="../../src/behavioral/Observer/ConcreteObserver.ts.ConcreteObserver" xlink:href="../../src/behavioral/Observer/ConcreteObserver.ts"><text x="72.5" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteObserver" data-compartment="0">ConcreteObserver</text></a>
+
+</g>
+</g>
+<g transform="translate(51.5, 221.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteObserver" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ConcreteObserver" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(51.5, 229.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteObserver" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteObserver" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteObserver" data-compartment="2">+update(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Observer">
+<g fill="lightblue" stroke="#33322E" data-name="Observer">
+<rect x="0.0" y="16.5" height="72.0" width="264.0" data-name="Observer"></rect>
+<path d="M0.0 48.5 L264.0 48.5" fill="none" data-name="Observer"></path>
+<path d="M0.0 80.5 L264.0 80.5" fill="none" data-name="Observer"></path>
+</g>
+<g transform="translate(0, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Observer" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Observer" data-compartment="0">
+<a id="../../src/behavioral/Observer/Observer.ts.Observer" xlink:href="../../src/behavioral/Observer/Observer.ts"><text x="124.0" y="14.1" stroke="none" text-anchor="middle" data-name="Observer" data-compartment="0">Observer</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Observer" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Observer" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Observer" data-compartment="1">+update: (event: string) =&gt; void</text>
+
+</g>
+</g>
+<g transform="translate(0, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Observer" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Observer" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="ConcreteSubject">
+<g fill="#eee8d5" stroke="#33322E" data-name="ConcreteSubject">
+<rect x="366.0" y="145.0" height="161.0" width="194.0" data-name="ConcreteSubject"></rect>
+<path d="M366.0 177.0 L560.0 177.0" fill="none" data-name="ConcreteSubject"></path>
+<path d="M366.0 225.0 L560.0 225.0" fill="none" data-name="ConcreteSubject"></path>
+</g>
+<g transform="translate(366, 145)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="ConcreteSubject" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ConcreteSubject" data-compartment="0">
+<a id="../../src/behavioral/Observer/ConcreteSubject.ts.ConcreteSubject" xlink:href="../../src/behavioral/Observer/ConcreteSubject.ts"><text x="89.0" y="14.1" stroke="none" text-anchor="middle" data-name="ConcreteSubject" data-compartment="0">ConcreteSubject</text></a>
+
+</g>
+</g>
+<g transform="translate(366, 177)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteSubject" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteSubject" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteSubject" data-compartment="1">-observers: Observer[]</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteSubject" data-compartment="1">-event: string</text>
+
+</g>
+</g>
+<g transform="translate(366, 225)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ConcreteSubject" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ConcreteSubject" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="ConcreteSubject" data-compartment="2">+attach(): void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ConcreteSubject" data-compartment="2">+detach(): void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ConcreteSubject" data-compartment="2">+notify(): void</text>
+<text x="0.0" y="62.7" stroke="none" data-name="ConcreteSubject" data-compartment="2">+setState(): void</text>
+
+</g>
+</g>
+</g>
+<g data-name="Subject">
+<g fill="lightblue" stroke="#33322E" data-name="Subject">
+<rect x="304.0" y="0.0" height="105.0" width="318.0" data-name="Subject"></rect>
+<path d="M304.0 32.0 L622.0 32.0" fill="none" data-name="Subject"></path>
+<path d="M304.0 97.0 L622.0 97.0" fill="none" data-name="Subject"></path>
+</g>
+<g transform="translate(304, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subject" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Subject" data-compartment="0">
+<a id="../../src/behavioral/Observer/Subject.ts.Subject" xlink:href="../../src/behavioral/Observer/Subject.ts"><text x="151.0" y="14.1" stroke="none" text-anchor="middle" data-name="Subject" data-compartment="0">Subject</text></a>
+
+</g>
+</g>
+<g transform="translate(304, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subject" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Subject" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Subject" data-compartment="1">+attach: (observer: Observer) =&gt; void</text>
+<text x="0.0" y="30.3" stroke="none" data-name="Subject" data-compartment="1">+detach: (observer: Observer) =&gt; void</text>
+<text x="0.0" y="46.5" stroke="none" data-name="Subject" data-compartment="1">+notify: () =&gt; void</text>
+
+</g>
+</g>
+<g transform="translate(304, 97)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Subject" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Subject" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

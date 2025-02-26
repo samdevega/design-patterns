@@ -1,0 +1,96 @@
+<svg version="1.1" baseProfile="full" width="471.5" height="264.0" viewBox="0 0 471.5 264" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Adaptee||+specificRequest(): string]
+[Adapter|-adaptee: Adaptee|+request(): string]
+[Target]&lt;:-[Adapter]
+[Target||+request(): string]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="264.0" width="471.5" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+<path d="M334.0 85.3 L334 92 L334 112 L334.0 112.0 " fill="none"></path>
+<path d="M339.3 85.3 L334.0 85.3 L328.7 85.3 L334.0 72.0 Z"></path>
+<g data-name="Adaptee">
+<g fill="#eee8d5" stroke="#33322E" data-name="Adaptee">
+<rect x="0.0" y="0.0" height="72.0" width="218.0" data-name="Adaptee"></rect>
+<path d="M0.0 32.0 L218.0 32.0" fill="none" data-name="Adaptee"></path>
+<path d="M0.0 40.0 L218.0 40.0" fill="none" data-name="Adaptee"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Adaptee" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Adaptee" data-compartment="0">
+<a id="../../src/structural/Adapter/Adaptee.ts.Adaptee" xlink:href="../../src/structural/Adapter/Adaptee.ts"><text x="101.0" y="14.1" stroke="none" text-anchor="middle" data-name="Adaptee" data-compartment="0">Adaptee</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Adaptee" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Adaptee" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Adaptee" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Adaptee" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Adaptee" data-compartment="2">+specificRequest(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Adapter">
+<g fill="#eee8d5" stroke="#33322E" data-name="Adapter">
+<rect x="252.5" y="112.0" height="96.0" width="163.0" data-name="Adapter"></rect>
+<path d="M252.5 144.0 L415.5 144.0" fill="none" data-name="Adapter"></path>
+<path d="M252.5 176.0 L415.5 176.0" fill="none" data-name="Adapter"></path>
+</g>
+<g transform="translate(252.5, 112)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Adapter" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Adapter" data-compartment="0">
+<a id="../../src/structural/Adapter/Adapter.ts.Adapter" xlink:href="../../src/structural/Adapter/Adapter.ts"><text x="73.5" y="14.1" stroke="none" text-anchor="middle" data-name="Adapter" data-compartment="0">Adapter</text></a>
+
+</g>
+</g>
+<g transform="translate(252.5, 144)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Adapter" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Adapter" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="Adapter" data-compartment="1">-adaptee: Adaptee</text>
+
+</g>
+</g>
+<g transform="translate(252.5, 176)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Adapter" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Adapter" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Adapter" data-compartment="2">+request(): string</text>
+
+</g>
+</g>
+</g>
+<g data-name="Target">
+<g fill="#eee8d5" stroke="#33322E" data-name="Target">
+<rect x="258.0" y="0.0" height="72.0" width="152.0" data-name="Target"></rect>
+<path d="M258.0 32.0 L410.0 32.0" fill="none" data-name="Target"></path>
+<path d="M258.0 40.0 L410.0 40.0" fill="none" data-name="Target"></path>
+</g>
+<g transform="translate(258, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Target" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Target" data-compartment="0">
+<a id="../../src/structural/Adapter/Target.ts.Target" xlink:href="../../src/structural/Adapter/Target.ts"><text x="68.0" y="14.1" stroke="none" text-anchor="middle" data-name="Target" data-compartment="0">Target</text></a>
+
+</g>
+</g>
+<g transform="translate(258, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Target" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Target" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(258, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Target" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Target" data-compartment="2">
+<text x="0.0" y="14.1" stroke="none" data-name="Target" data-compartment="2">+request(): string</text>
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
