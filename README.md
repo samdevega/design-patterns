@@ -10,7 +10,9 @@ The first level of this project is designed to contain folders for each programm
 
 Within the folder of a given language, the patterns are divided by category into `behavioral`, `creational`, and `structural` directories.
 
-The `test` folder follows this same structure, including a test suite for each pattern.
+The `assets` folder includes a UML Diagram in SVG format for each pattern.
+
+The `test` folder includes a test suite for each pattern.
 
 ## TypeScript Commands
 
